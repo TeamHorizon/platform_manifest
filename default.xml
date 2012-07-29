@@ -315,6 +315,6 @@
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="platform/system/vold" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="th" revision="jb" />
-  <project path="vendor/xenonhd" name="android_vendor-xenonhd" remote="th" revision="jellybean" />
+  <project path="vendor/" name="android_vendor-xenonhd" remote="th" revision="jellybean" />
 
 </manifest>
