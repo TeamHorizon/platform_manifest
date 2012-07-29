@@ -4,7 +4,9 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
    <remote name="th"
-           fetch="https://github.com/TeamHorizon/" /> 
+           fetch="https://github.com/TeamHorizon/" />
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod/" />
   <default revision="refs/tags/android-4.1.1_r3"
            remote="aosp"
            sync-j="4" />
@@ -316,5 +318,10 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="th" revision="jb" />
   <project path="vendor/" name="android_vendor-xenonhd" remote="th" revision="jellybean" />
+
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
+  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
 </manifest>
