@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
    <remote name="th"
-           fetch="git://github.com/teamhorizon/" /> 
+           fetch="https://github.com/teamhorizon/" /> 
   <default revision="refs/tags/android-4.1.1_r3"
            remote="aosp"
            sync-j="4" />
