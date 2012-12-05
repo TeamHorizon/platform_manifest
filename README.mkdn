@@ -14,4 +14,4 @@ https://plus.google.com/109870980004611680676/posts
 
 =======================================================
 
-repo init -u git://github.com/TeamHorizon/platform_manifest.git -b jellybean
+repo init -u git://github.com/TeamHorizon/platform_manifest.git -b jb-mr1
