@@ -1,17 +1,27 @@
 Team Horizon
 ===========
 
-Follow 
+Follow:
 
 http://twitter.com/arhamjamal
        
 http://twitter.com/adam80460
 
-Google+
+http://twitter.com/TheBr0ken
 
-https://plus.google.com/109870980004611680676/posts
+http://twitter.com/tr0nz420
+
+Google+ community:
+
+https://plus.google.com/communities/110254322179967248992
 
 
 =======================================================
 
 repo init -u git://github.com/TeamHorizon/platform_manifest.git -b jb-mr1
+
+repo sync -j2
+
+. build/envsetup.sh && brunch device-name-here
+
+
