@@ -370,7 +370,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <project path="vendor/asus" name="android_vendor_asus" remote="th" revision="jb-mr1" />
-  <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/lge" name="AOKP/vendor_lge" remote="th" revision="jb-mr1" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="th" revision="jb-mr1" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="jb-mr1" />
 
