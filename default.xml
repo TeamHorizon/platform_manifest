@@ -9,6 +9,8 @@
            fetch="https://github.com/CyanogenMod/" />
   <remote  name="aokp"
            fetch="https://github.com/" />
+  <remote  name="koush"
+  		   fetch="https://github.com/koush/" />
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -153,8 +155,8 @@
   <project path="external/llvm" name="platform/external/llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/lsof" name="android_external_lsof" remote="th" revision="jb-mr1" />
-  <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="master" />
-  <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
+  <project path="external/koush/Superuser" name="Superuser" remote="koush" revision="master" />
+  <project path="external/koush/Widgets" name="Widgets" remote="koush" revision="master" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
   <project path="external/mesa3d" name="platform/external/mesa3d" />
