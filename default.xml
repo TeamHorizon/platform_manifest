@@ -24,7 +24,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
+  <project path="dalvik" name="dalvik" remote="th" revision="jb-mr1" />
   <project path="development" name="platform/development" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="th" revision="jb-mr1" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="th" revision="jb-mr1" />
