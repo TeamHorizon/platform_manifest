@@ -47,7 +47,7 @@
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="th" revision="jb-mr1" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="th" revision="jb-mr1" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
-  <project path="device/samsung/msm8960-common" name="AOKP/device_samsung_msm8960-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="th" revision="jb-mr1" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="th" revision="jb-mr1" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="th" revision="jb-mr1" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="th" revision="jb-mr1"/>
