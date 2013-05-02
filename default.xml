@@ -16,6 +16,10 @@
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
+           
+  <remote  name="gh"
+           fetch="https://github.com/pcarenza"
+           review=""
 
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
@@ -57,6 +61,8 @@
   <project path="device/motorola/spyder" name="AOKP/device_motorola_spyder" remote="aokp" revision="jb-mr1" />
   <project path="device/motorola/targa" name="AOKP/device_motorola_targa" remote="aokp" revision="jb-mr1" />
   <project path="device/motorola/umts_spyder" name="AOKP/device_motorola_umts_spyder" remote="aokp" revision="jb-mr1" />
+  <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" remote="gh" revision="jb-mr1" />
+  <project path="device/motorola/xt926" name="device_motorola_xt926" remote="gh" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/aries-common" name="AOKP/device_samsung_aries-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/celox-common" name="AOKP/device_samsung_celox-common" remote="aokp" revision="jb-mr1" />
@@ -417,6 +423,7 @@
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="aokp" revision="jb-mr1" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="aokp" revision="jb-mr1" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="jb-mr1" />
+  <project path="vendor/motorola/xt926" name="vendor_motorola_xt926" remote="gh" revision="jb-mr1" />
   <project path="vendor/samsung" name="AOKP/vendor_samsung" remote="aokp" revision="jb-mr1" />
   <project path="vendor/sony" name="AOKP/vendor_sony" remote="aokp" revision="jb-mr1" />
   <project path="vendor/acer/a510" name="AOKP/vendor_acer_a510" remote="aokp" revision="jb-mr1" />
