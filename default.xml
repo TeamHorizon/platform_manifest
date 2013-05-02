@@ -19,7 +19,7 @@
            
   <remote  name="gh"
            fetch="https://github.com/pcarenza"
-           review=""
+           review="" />
 
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
