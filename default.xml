@@ -18,8 +18,7 @@
            review="http://review.omapzoom.org/" />
            
   <remote  name="gh"
-           fetch="https://github.com/pcarenza"
-           review="" />
+           fetch="https://github.com/pcarenza" />
 
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
@@ -46,8 +45,8 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" remote="gh" revision="jb-mr1" />
-  <project path="device/motorola/xt926" name="device_motorola_xt926" remote="gh" revision="jb-mr1" />
+  <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="gh" revision="jb-mr1" />
+  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="gh" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
@@ -370,7 +369,7 @@
   <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="aokp" revision="jb-mr1" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr1" />
   <project path="vendor/motorola" name="AOKP/vendor_motorola" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/motorola/xt926" name="vendor_motorola_xt926" remote="gh" revision="jb-mr1" />
+  <project path="vendor/motorola/xt926" name="android_vendor_motorola_xt926" remote="gh" revision="jb-mr1" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="aokp" revision="jb-mr1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
@@ -380,5 +379,5 @@
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
-  <project path="platform_manifest" name="AOKP/platform_manifest" remote="aokp" revision="jb-mr1" />
+  <project path="platform_manifest" name="platform_manifest" remote="pc" revision="jb-mr1" />
 </manifest>
