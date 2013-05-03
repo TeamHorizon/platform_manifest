@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="kernel/asus/grouper" name="kernel/tegra" remote="aosp" revision="android-tegra3-grouper-3.1-jb-mr1.1" />
-  <project path="kernel/motorola/msm8960-common" name="kernel_motorola_msm8960-common" remote="gh" revision="jb-mr1" />
+  <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="gh" revision="jb-mr1" />
 </manifest>
