@@ -393,6 +393,6 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
-  <project path="platform_manifest" name="platform_manifest-1" remote="pc" revision="jb-mr1" />
+  <project path="platform_manifest" name="platform_manifest" remote="th" revision="jb-mr1" />
 
 </manifest>
