@@ -9,6 +9,8 @@
            fetch="https://github.com/CyanogenMod/" />
   <remote  name="aokp"
            fetch="https://github.com/" />
+  <remote  name="pc"
+           fetch="https://github.com/pcarenza" />
   <remote  name="koush"
   		   fetch="https://github.com/koush/" />
   <default revision="refs/tags/android-4.2.2_r1.2"
@@ -38,6 +40,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device_lge_mako" remote="th" revision="jb-mr1" />
+  <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="pc" revision="xenon" />
+  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="pc" revision="xenon" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="device_samsung_crespo" remote="th" revision="jb-mr1" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="th" revision="jb-mr1" />
@@ -269,6 +273,7 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
+  <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="pc" revision="xenon" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -380,6 +385,7 @@
   <project path="vendor/asus" name="android_vendor_asus" remote="th" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="th" revision="jb-mr1" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="th" revision="jb-mr1" />
+  <project path="vendor/motorola/xt926" name="android_vendor_motorola_xt926" remote="pc" revision="xenon" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="jb-mr1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
