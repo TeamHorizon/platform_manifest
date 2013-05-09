@@ -12,7 +12,7 @@
   <remote  name="koush"
            fetch="https://github.com/koush/" />
   <remote  name="faux"
-  		   fetch="https://github.com/faux123/" />
+	   fetch="https://github.com/faux123/" />
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-j="4" />
@@ -30,7 +30,6 @@
   <project path="development" name="platform/development" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="th" revision="jb-mr1" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="th" revision="jb-mr1" />
-  <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
@@ -42,6 +41,7 @@
   <project path="device/lge/mako" name="device_lge_mako" remote="th" revision="jb-mr1" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="th" revision="jb-mr1" />
   <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="th" revision="jb-mr1" />
+  <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="th" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="device_samsung_crespo" remote="th" revision="jb-mr1" />
   <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="th" revision="jb-mr1" />
@@ -386,7 +386,9 @@
   <project path="vendor/asus" name="android_vendor_asus" remote="th" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="th" revision="jb-mr1" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="th" revision="jb-mr1" />
+  <project path="vendor/motorola/xt925" name="android_vendor_motorola_xt925" remote="th" revision="jb-mr1" />
   <project path="vendor/motorola/xt926" name="android_vendor_motorola_xt926" remote="th" revision="jb-mr1" />
+
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="jb-mr1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
