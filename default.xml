@@ -40,8 +40,9 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="th" revision="jb-mr1" />
-  <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/msm8660-common" name="TheBr0ken/android_device_htc_msm8660-common" remote="aokp" revision="xenon" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
+  <project path="device/htc/vigor" name="TheBr0ken/device_htc_vigor" remote="aokp" revision="xenon" />
   <project path="device/lge/mako" name="device_lge_mako" remote="th" revision="jb-mr1" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="th" revision="jb-mr1" />
   <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="th" revision="jb-mr1" />
@@ -263,10 +264,12 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="th" revision="jb-mr1" />
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display" remote="th" revision="jb-mr1" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="th" revision="jb-mr1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="th" revision="jb-mr1" />
+  <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_display" remote="th" revision="jb-mr1" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
@@ -279,8 +282,10 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
   <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="cm" revision="cm-10.1" />
+  <project path="kernel/htc/vigor-3.0" name="TheBr0ken/funky_kernel" remote="aokp" revision="aosp-jb" />
   <project path="kernel/lge/mako" name="mako" remote="faux" revision="enhanced_stock" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="th" revision="jb-mr1" />
+  
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
@@ -391,6 +396,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <project path="vendor/asus" name="android_vendor_asus" remote="th" revision="jb-mr1" />
+  <project path="vendor/htc" name="Flyhalf205/vendor_htc_vigor" remote="aokp" revision="cm-10.1" />
   <project path="vendor/lge" name="vendor_lge" remote="th" revision="jb-mr1" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="th" revision="jb-mr1" />
   <project path="vendor/motorola/xt925" name="android_vendor_motorola_xt925" remote="th" revision="jb-mr1" />
