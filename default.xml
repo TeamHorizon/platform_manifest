@@ -56,6 +56,10 @@
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="th" revision="jb-mr1" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="th" revision="jb-mr1" />
+  <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="th" revision="jb-mr1" />
+  <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" />
+  <project path="device/samsung/t0lte" name="device_samsung_t0lte" remote="th" revision="jb-mr1" />
+  <project path="device/samsung/t0ltetmo" name="android_device_samsung_t0ltetmo" remote="th" revision="jb-mr1" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="th" revision="jb-mr1" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="th" revision="jb-mr1" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="th" revision="jb-mr1"/>
@@ -281,6 +285,7 @@
   <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="cm" revision="cm-10.1" />
   <project path="kernel/lge/mako" name="mako" remote="faux" revision="enhanced_stock" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="th" revision="jb-mr1" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
