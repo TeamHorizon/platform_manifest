@@ -42,6 +42,8 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="th" revision="jb-mr1" />
+  <project path="device/htc/m7" name="android_device_htc_m7" remote="th" revision="cm-10.1" />
+  <project path="device/htc/m7-common" name="android_device_htc_m7-common" remote="th" revision="cm-10.1" />
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="th" revision="xenon" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/vigor" name="TheBr0ken/device_htc_vigor" remote="general" revision="xenon" />
@@ -288,6 +290,7 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
   <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="cm" revision="cm-10.1" />
+  <project path="kernel/htc/m7" name="android_kernel_htc_m7" remote="th" revision="cm-10.1" />
   <project path="kernel/htc/vigor-3.0" name="TheBr0ken/vigor_aosp_kernel" remote="general" revision="aosp-jb" />
   <project path="kernel/lge/mako" name="mako" remote="faux" revision="enhanced_stock" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="th" revision="jb-mr1" />
@@ -407,6 +410,7 @@
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="th" revision="jb-mr1" />
   <project path="vendor/motorola/xt925" name="android_vendor_motorola_xt925" remote="th" revision="jb-mr1" />
   <project path="vendor/motorola/xt926" name="android_vendor_motorola_xt926" remote="th" revision="jb-mr1" />
+  <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="th" revision="cm-10.1" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="jb-mr1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cm" revision="cm-10.1" />
