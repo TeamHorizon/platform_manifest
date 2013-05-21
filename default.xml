@@ -400,7 +400,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" />
 
   <project path="vendor/asus" name="android_vendor_asus" remote="th" revision="jb-mr1" />
-  <project path="vendor/htc/vigor" name="Flyhalf205/vendor_htc_vigor" remote="aokp" revision="cm-10.1" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="th" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="th" revision="jb-mr1" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="th" revision="jb-mr1" />
   <project path="vendor/motorola/xt925" name="android_vendor_motorola_xt925" remote="th" revision="jb-mr1" />
