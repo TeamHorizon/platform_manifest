@@ -48,7 +48,7 @@
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/vigor" name="TheBr0ken/device_htc_vigor" remote="general" revision="xenon" />
   <project path="device/lge/mako" name="device_lge_mako" remote="th" revision="jb-mr1" />
-  <project path="device/motorola/mb886" name="android_device_motorola_mb886" remote="th" revison="jb-mr1" />
+  <project path="device/motorola/mb886" name="android_device_motorola_mb886" remote="th" revision="jb-mr1" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="th" revision="jb-mr1" />
   <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="th" revision="jb-mr1" />
   <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="th" revision="jb-mr1" />
