@@ -68,7 +68,7 @@
   <project path="device/samsung/i9305" name="android_device_samsung_i9305" remote="th" revision="jb-mr1" />
   <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="th" revision="jb-mr1" />
   <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="th" revision="jb-mr1" />
-  <project path="device/samsung/omap4-common" name="AOKP/device_samsung_omap4-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/omap4-common" name="android_device_samsung_omap4-common" remote="cm" revision="cm-10.1" />
   <project path="device/samsung/galaxysmtd" name="android_device_samsung_galaxysmtd" remote="th" revision="jb-mr1" />
   <project path="device/samsung/galaxys2-common" name="AOKP/device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="th" revision="jb-mr1" />
