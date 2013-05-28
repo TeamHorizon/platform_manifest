@@ -14,7 +14,7 @@
   <remote  name="koush"
            fetch="https://github.com/koush/" />
   <remote  name="faux"
-  		   fetch="https://github.com/faux123/" />
+           fetch="https://github.com/faux123/" />
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-j="4" />
@@ -25,8 +25,8 @@
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform_bionic" remote="th" revision="jb-mr1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" />
+  <project path="bootable/diskinstaller" name="android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="dalvik" remote="th" revision="jb-mr1" />
   <project path="development" name="platform/development" />
@@ -60,7 +60,15 @@
   <project path="device/samsung/d2usc" name="AOKP/device_samsung_d2usc" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="th" revision="jb-mr1" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="th" revision="jb-mr1" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
+  <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />  
+  <project path="device/samsung/i9100" name="AOKP/device_samsung_i9100" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/i9100g" name="AOKP/device_samsung_i9100g" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/i9300" name="AOKP/device_samsung_i9300" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/i9305" name="android_device_samsung_i9305" remote="th" revision="jb-mr1" />
+  <project path="device/samsung/n7000" name="android_device_samsung_n7000" remote="th" revision="jb-mr1" />
+  <project path="device/samsung/n7100" name="android_device_samsung_n7100" remote="th" revision="jb-mr1" />
+  <project path="device/samsung/omap4-common" name="AOKP/device_samsung_omap4-common" remote="aokp" revision="jb-mr1" />
+  <project path="device/samsung/galaxys2-common" name="AOKP/device_samsung_galaxys2-common" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="th" revision="jb-mr1" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common" remote="th" revision="jb-mr1" />
   <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" />
@@ -297,7 +305,9 @@
   <project path="kernel/lge/mako" name="mako" remote="faux" revision="enhanced_stock" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="th" revision="jb-mr1" />
   <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/smdk4210" name="android_kernel_samsung_smdk4210" remote="cm" revision="cm-10.1" />
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/t1" name="android_kernel_samsung_t1" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
