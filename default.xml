@@ -74,8 +74,6 @@
   <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="th" revision="jb-mr1" />
   <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" remote="th" revision="cm-10.1" />
   <project path="device/samsung/smdk4412-qcom-common" name="android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.1" />
-  <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="th" revision="jb-mr1" />
-  <project path="device/samsung/t0ltetmo" name="android_device_samsung_t0ltetmo" remote="th" revision="jb-mr1" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="th" revision="jb-mr1" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="th" revision="jb-mr1" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="th" revision="jb-mr1"/>
@@ -416,6 +414,7 @@
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="th" revision="jb-mr1" />
   <project path="vendor/lge" name="vendor_lge" remote="th" revision="jb-mr1" />
   <project path="vendor/samsung" name="platform_vendor_samsung" remote="th" revision="jb-mr1" />
+  <project path="vendor/motorola/msm8960-common" name="android_vendor_motorola_msm8960-common" remote="th" revision="jb-mr1" />
   <project path="vendor/motorola/mb886" name="android_vendor_motorola_mb886" remote="th" revision="jb-mr1" />
   <project path="vendor/motorola/xt925" name="android_vendor_motorola_xt925" remote="th" revision="jb-mr1" />
   <project path="vendor/motorola/xt926" name="android_vendor_motorola_xt926" remote="th" revision="jb-mr1" />
