@@ -15,8 +15,6 @@
            fetch="https://github.com/koush/" />
   <remote  name="faux"
            fetch="https://github.com/faux123/" />
-  <remote  name="pc"
-           fetch="https://github.com/pcarenza/" />
   <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-j="4" />
