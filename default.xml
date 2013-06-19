@@ -52,6 +52,7 @@
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="th" revision="jb-mr1" />
   <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="th" revision="jb-mr1" />
   <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="th" revision="jb-mr1" />
+  <project path="device/oppo/find5" name="device_oppo_find5" remote="th" revision="jb-mr1" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="th" revision="jb-mr1" />
   <project path="device/samsung/crespo" name="device_samsung_crespo" remote="th" revision="jb-mr1" />
@@ -418,6 +419,7 @@
   <project path="vendor/motorola/mb886" name="android_vendor_motorola_mb886" remote="th" revision="jb-mr1" />
   <project path="vendor/motorola/xt925" name="android_vendor_motorola_xt925" remote="th" revision="jb-mr1" />
   <project path="vendor/motorola/xt926" name="android_vendor_motorola_xt926" remote="th" revision="jb-mr1" />
+  <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="th" revision="jb-mr1" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="th" revision="cm-10.1" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="jb-mr1" />
 
