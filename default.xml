@@ -61,6 +61,8 @@
   <project path="device/samsung/d2tmo" name="AOKP/device_samsung_d2tmo" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2usc" name="AOKP/device_samsung_d2usc" remote="aokp" revision="jb-mr1" />
   <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="th" revision="jb-mr1" />
+  <project path="device/samsung/jf-common" name="android_device_samsung_jf-common" remote="th" revision="jb-mr1" />
+  <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="th" revision="jb-mr1" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="th" revision="jb-mr1" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />  
   <project path="device/samsung/i9100" name="AOKP/device_samsung_i9100" remote="aokp" revision="jb-mr1" />
