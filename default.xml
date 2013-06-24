@@ -81,6 +81,7 @@
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="th" revision="jb-mr1" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="th" revision="jb-mr1"/>
   <project path="device/samsung/t0lte" name="android_device_samsung_t0lte" remote="th" revision="jb-mr1" />
+  <project path="device/samsung/t0lteatt" name="android_device_samsung_t0lteatt" remote="th" revision="jb-mr1" />
   <project path="device/samsung/t0ltetmo" name="android_device_samsung_t0ltetmo" remote="th" revision="jb-mr1" />
   <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="th" revision="jb-mr1" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
