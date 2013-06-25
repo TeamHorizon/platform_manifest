@@ -360,7 +360,7 @@
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" revision="refs/tags/android-4.2.2_r1.1" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" revision="refs/tags/android-4.2.2_r1.1" />
-  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" revision="refs/tags/android-4.2.2_r1.1" />
+  <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" remote="cm" revision="cm-10.1" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="th" revision="jb-mr1" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="th" revision="jb-mr1" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" revision="refs/tags/android-4.2.2_r1.1" />
