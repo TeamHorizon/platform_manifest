@@ -221,7 +221,7 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/rsync" name="android_external_rsync" remote="th" revision="master" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" />
+  <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-10.1"  />
   <project path="external/skia" name="android_external_skia" remote="cm" revision="cm-10.1" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
@@ -304,7 +304,7 @@
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="android_libcore" remote="cm" revision="cm-10.1" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AOKPTorch" name="packages_apps_torch" remote="th" revision="jb-mr1" />
