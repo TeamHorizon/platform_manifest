@@ -427,7 +427,7 @@
   <project path="vendor/motorola/mb886" name="android_vendor_motorola_mb886" remote="th" revision="jb-mr1" />
   <project path="vendor/motorola/xt925" name="android_vendor_motorola_xt925" remote="th" revision="jb-mr1" />
   <project path="vendor/motorola/xt926" name="android_vendor_motorola_xt926" remote="th" revision="jb-mr1" />
-  <project path="vendor/motorola" name="proprietary_vendor_motorola_omap" remote="th" revision="jb-mr1" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola-omap" remote="th" revision="jb-mr1" />
   <project path="vendor/oppo" name="proprietary_vendor_oppo" remote="th" revision="jb-mr1" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="th" revision="cm-10.1" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="jb-mr1" />
