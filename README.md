@@ -1,5 +1,5 @@
-	INITIALIZING REPOSITORY	
-=======================	
+	INITIALIZING XenonHD REPOSITORY	
+=======================================
 
 For initializing repo use:
 
