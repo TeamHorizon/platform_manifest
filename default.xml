@@ -15,7 +15,7 @@
   <remote  name="xp"
            fetch="https://github.com/xplodwild" />
       
-  <default revision="refs/tags/android-4.3_r3.1"
+  <default revision="refs/tags/android-4.3.1_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -426,6 +426,7 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.2" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
+  <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-10.2" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-10.2" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
