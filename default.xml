@@ -4,7 +4,8 @@
 <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote name="th"
-           fetch="https://github.com/TeamHorizon/" />
+           fetch="https://github.com/TeamHorizon/" 
+           review="review.gerrithub.io" />
   <remote name="tm"
            fetch="https://github.com/TheMuppets/" />
   <remote  name="cm"
