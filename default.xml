@@ -296,7 +296,7 @@
   <project path="hardware/qcom/msm8960" name="android_hardware_qcom_msm8960" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.2" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.2" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
