@@ -24,4 +24,4 @@ for example, to init only trees needed to build i9300:
 
 sync repo:
 
-    $ repo sync 
+    $ repo sync -j2 | -j4 |-j8 | -j32 (# of CPUs x2)
