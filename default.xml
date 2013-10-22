@@ -270,7 +270,7 @@
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" remote="th" revision="jb-mr2" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="cm" revision="cm-10.2" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-10.2" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="th" revision="jb-mr2" />
   <project path="frameworks/opt/vcard" name="android_frameworks_opt_vcard" remote="cm" revision="cm-10.2" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="cm" revision="cm-10.2" />
   <project path="frameworks/support" name="platform/frameworks/support" />
