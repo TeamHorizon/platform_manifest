@@ -3,11 +3,25 @@
 
   <remote  name="aosp"
            fetch=".." />
+  <remote name="th"
+           fetch="https://github.com/TeamHorizon/" 
+           review="review.gerrithub.io" />
+  <remote name="tm"
+           fetch="https://github.com/TheMuppets/" />
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod/" />
+  <remote  name="aokp"
+           fetch="https://github.com/AOKP/" />
+  <remote  name="xp"
+           fetch="https://github.com/xplodwild" />
+  <remote  name="omni"
+             fetch="https://github.com/omnirom" />
+
   <default revision="refs/tags/android-4.4_r1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <project path="build" name="android_build" remote="th" revision="kitkat">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
