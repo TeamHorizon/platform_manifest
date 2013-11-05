@@ -57,6 +57,10 @@
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
+  <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="th" revision="kitkat" groups="device,motorola" />
+  <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="th" revision="kitkat" groups="device,motorola" />
+  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="th" revision="kitkat" groups="device,xt926" />
+  <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="th" revision="kitkat" groups="device,xt925" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -442,5 +446,6 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.2" groups="vendor,motorola" />
 
 </manifest>
