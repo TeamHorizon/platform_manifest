@@ -258,7 +258,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="STS-Dev-Team/platform_frameworks_av" remote="github" revision="kk" />
-  <project path="frameworks/base" name="STS-Dev-Team/platform_frameworks_base" remote="github" revision="kk" />
+  <project path="frameworks/base" name="TeamHorizon/platform_frameworks_base" remote="github" revision="kitkat_proto" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -348,8 +348,8 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/ROMStats" name="TeamHorizon/android_packages_apps_ROMStats remote="github" revision="kitkat" />
-  <project path="packages/apps/Settings" name="TeamHorizon/android_packages_apps_Settings" remote="github" revision="kitkat" />
+  <project path="packages/apps/ROMStats" name="TeamHorizon/android_packages_apps_ROMStats" remote="github" revision="kitkat" />
+  <project path="packages/apps/Settings" name="TeamHorizon/android_packages_apps_Settings" remote="github" revision="kitkat_proto" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
