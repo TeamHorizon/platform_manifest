@@ -258,7 +258,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="STS-Dev-Team/platform_frameworks_av" remote="github" revision="kk" />
-  <project path="frameworks/base" name="STS-Dev-Team/platform_frameworks_base" remote="github" revision="kk" />
+  <project path="frameworks/base" name="TeamHorizon/platform_frameworks_base" remote="github" revision="kitkat_proto" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -325,7 +325,7 @@
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPMAnager" />
+  <project path="packages/apps/DSPManager" name="TeamHorizon/android_packages_apps_DSPManager" remote="github" revision="kitkat" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
@@ -341,15 +341,15 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/ota-update-centre" name="TeamHorizon/packages_apps_ota-update-centre" remote="th" revision="kitkat" />
+  <project path="packages/apps/ota-update-centre" name="TeamHorizon/packages_apps_ota-update-centre" remote="github" revision="kitkat" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/ROMStats" name="TeamHorizon/android_packages_apps_ROMStats remote="github" revision="kitkat" />
-  <project path="packages/apps/Settings" name="TeamHorizon/android_packages_apps_Settings" remote="github" revision="kitkat" />
+  <project path="packages/apps/ROMStats" name="TeamHorizon/android_packages_apps_ROMStats" remote="github" revision="kitkat" />
+  <project path="packages/apps/Settings" name="TeamHorizon/android_packages_apps_Settings" remote="github" revision="kitkat_proto" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
