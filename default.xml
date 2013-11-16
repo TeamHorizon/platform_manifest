@@ -108,7 +108,7 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
+  <project path="external/clang" name="omnirom/android_exteral_clang" remote="github" revision="android-4.4" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -432,7 +432,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="STS-Dev-Team/platform_system_core" remote="github" revision="kk" />
+  <project path="system/core" name="TeamHorizon/android_system_core" remote="github" revision="kitkat" />
   <project path="system/extras" name="TeamHorizon/system_extras" remote="github" revision="kitkat" groups="pdk" />
   <project path="system/media" name="omnirom/android_system_media" remote="github" revision="android-4.4" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
