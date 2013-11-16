@@ -434,7 +434,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="STS-Dev-Team/platform_system_core" remote="github" revision="kk" />
   <project path="system/extras" name="TeamHorizon/system_extras" remote="github" revision="kitkat" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <project path="system/media" name="omnirom/android_system_media" remote="github" revision="android-4.4" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="platform/system/vold" groups="pdk" />
