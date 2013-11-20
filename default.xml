@@ -297,9 +297,8 @@
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" remote="caf" revision="kk_2.7_rb1.9" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="th" revision="kitkat" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
+  <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" remote="th" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="th" revision="kitkat" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="th" revision="kitkat" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="th" revision="kitkat" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="th" revision="kitkat" />
