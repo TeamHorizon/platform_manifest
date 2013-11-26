@@ -322,7 +322,6 @@
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="th" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="th" revision="kitkat" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="th" revision="kitkat" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="th" revision="kitkat" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="th" revision="kitkat" />
