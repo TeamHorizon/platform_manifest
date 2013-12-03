@@ -31,7 +31,7 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
+  <project path="bionic" name="android_bionic" remote="rf" revision="kitkat" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="omni" revision="android-4.4" groups="pdk" />
