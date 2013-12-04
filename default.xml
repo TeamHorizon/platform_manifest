@@ -481,6 +481,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="th" revision="kitkat" groups="notdefault,vendor,htc" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" groups="notdefault,vendor,motorola"  />
+  <project path="vendor/qcom" name="proprietary_vendor_qcom" remote="th" revision="kitkat" groups="flo,deb,mako,hammerhead" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-11.0" groups="notdefault,vendor,samsung" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="kitkat" />
   <project name="razrqcom-dev-team/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="kk" groups="notdefault,vendor,motorola"/>
