@@ -466,4 +466,8 @@
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="kitkat" />
   <project path="platform_manifest" name="platform_manifest" remote="th" revision="kitkat" />
 
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="th" revision="kitkat" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="th" revision="kitkat" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="th" revision="kitkat" />
+
 </manifest>
