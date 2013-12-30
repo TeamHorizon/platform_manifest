@@ -62,7 +62,7 @@
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="notdefault,device,mako" />
   <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="th" revision="kitkat" groups="notdefault,device,motorola" />
   <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="th" revision="kitkat" groups="notdefault,device,motorola" />
-  <project path="device/motorola/xt926" name="android-device_motorola_xt926" remote="th" revision="kitkat" groups="notdefault,device,xt926" />
+  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="th" revision="kitkat" groups="notdefault,device,xt926" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="th" revision="jb-mr2" groups="notdefault,device,maguro"/>
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
@@ -302,7 +302,7 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" remote="th" revision="kitkat" groups="pdk" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="th" revision="kitkat" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
