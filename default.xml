@@ -56,10 +56,13 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="th" revision="kitkat" groups="device,hammerhead" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" />
+  <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" remote="th" revision="kitkat" groups="notdefault,device,hammerhead" />
+  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="notdefault,device,hammerhead" />
   <project path="device/lge/mako" name="device_lge_mako" remote="th" revision="kitkat" groups="notdefault,device,mako" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="notdefault,device,mako" />
+  <project path="device/motorola/msm8960-common" name="android_device_motorola_msm8960-common" remote="th" revision="kitkat" groups="notdefault,device,motorola" />
+  <project path="device/motorola/qcom-common" name="android_device_motorola_qcom-common" remote="th" revision="kitkat" groups="notdefault,device,motorola" />
+  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="th" revision="kitkat" groups="notdefault,device,xt926" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/maguro" name="platform_device_samsung_maguro" remote="th" revision="kitkat" groups="notdefault,device,maguro"/>
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
@@ -302,6 +305,7 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="th" revision="kitkat" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="th" revision="kitkat" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="th" revision="kitkat" groups="qcom" />
@@ -463,11 +467,12 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   -->
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="kitkat" />
   <project path="platform_manifest" name="platform_manifest" remote="th" revision="kitkat" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="th" revision="kitkat" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="th" revision="kitkat" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="th" revision="kitkat" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="th" revision="kitkat" />
 
 </manifest>
