@@ -35,7 +35,6 @@
   <project path="packages/apps/ROMStats" name="android_packages_apps_ROMStats" remote="th" revision="kitkat" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="th" revision="kitkat" />
   <project path="packages/apps/XenonWallpapers" name="android_packages_apps_XenonWallpapers" remote="th" revision="jb-mr2" />
-  <project path="packages/themes/KitKatWhite" name="packages_themes_KitKatWhite" remote="th" revision="kitkat" />
   
   <!-- Devices -->
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
