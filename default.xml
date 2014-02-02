@@ -283,7 +283,7 @@
   <project path="external/zxing" name="platform/external/zxing" />
   
   <!-- Frameworks -->
-  <project path="frameworks/av" name="platform/frameworks/av" remote="th" revision="kitkat" groups="pdk" />
+  <project path="frameworks/av" name="frameworks_av" remote="th" revision="kitkat" groups="pdk" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="th" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
