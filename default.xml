@@ -41,7 +41,7 @@
   <project path="device/generic/x86" name="device/generic/x86" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
-  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="th" revision="jb-mr1" />
+  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="th" revision="cm-10.1" />
   <project path="device/htc/msm8660-common" name="android_device_htc_msm8660-common" remote="th" revision="jb-mr1" />
   <project path="device/htc/msm8960-common" name="android_device_htc_msm8960-common" remote="cm" revision="cm-10.1" />
   <project path="device/htc/vigor" name="TheBr0ken/device_htc_vigor" remote="general" revision="xenon" />
