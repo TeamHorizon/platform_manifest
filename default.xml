@@ -3,10 +3,10 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
-  <remote name="th"
+  <remote  name="th"
            fetch="https://github.com/TeamHorizon/" 
            review="review.gerrithub.io" />
-  <remote name="tm"
+  <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
@@ -15,10 +15,12 @@
   <remote  name="xp"
            fetch="https://github.com/xplodwild" />
   <remote  name="omni"
-             fetch="https://github.com/omnirom" />
+           fetch="https://github.com/omnirom" />
+  <remote  name="TeamHorizon"
+           fetch="https://github.com/TeamHorizon/" />
   <remote  name="github"
-             fetch="https://github.com/" />
-  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+           fetch="https://github.com/" />
+  <remote  fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
 
   <default revision="refs/tags/android-4.4.2_r1"
            remote="aosp"
