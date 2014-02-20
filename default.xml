@@ -8,6 +8,8 @@
            review="review.gerrithub.io" />
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
+  <remote  name="ljjehl"
+           fetch="https://github.com/ljjehl-XHD/" />
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/" />
   <remote  name="aokp"
@@ -69,6 +71,8 @@
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="th" revision="kitkat" groups="notdefault,device,toro" />
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="th" revision="jb-mr2" groups="notdefault,device,toroplus" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="th" revision="kitkat" groups="notdefault,device,tuna" />
+  <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="ljjehl" revision="kitkat" groups="notdefault,device,endeavoru" />
+  <project path="device/htc/tegra3-common" name="android_device_htc_tegra3-common" remote="ljjehl" revision="kitkat" groups="notdefault,device,tegra3-common" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="cm" revision="cm-11.0"  />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
