@@ -32,7 +32,7 @@
   <project path="build" name="android_build" remote="th" revision="kitkat">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="platform/art" />
+  <project path="art" name="android_art" remote="cm" revision="cm-11.0" />
   
   <!-- Xenon Additions -->
   <project path="packages/apps/ROMSettings" name="packages_apps_ROMSettings" remote="th" revision="kitkat" />
@@ -349,7 +349,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
-  <project path="libcore" name="platform/libcore" />
+  <project path="libcore" name="android_libcore" remote="cm" revision="cm-11.0" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   
