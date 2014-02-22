@@ -42,7 +42,7 @@
   
   <!-- Devices -->
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
-  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="th" revision="kitkat" groups="device,flo" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
   <project path="device/asus/grouper" name="platform_device_asus_grouper" remote="th" revision="kitkat" groups="notdefault,device,grouper" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="th" revision="kitkat" groups="notdefault,device,tilapia" />
