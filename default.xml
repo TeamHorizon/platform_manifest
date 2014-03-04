@@ -391,7 +391,7 @@
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omni" revision="android-4.4" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="rf" revision="kitkat" />
+  <project path="packages/apps/PerformanceControl" name="android_packages_apps_PerformanceControl" remote="th" revision="kitkat" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="th" revision="kitkat" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
