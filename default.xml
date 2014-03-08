@@ -20,6 +20,8 @@
            fetch="https://github.com/omnirom" />
   <remote  name="TeamHorizon"
            fetch="https://github.com/TeamHorizon/" />
+  <remote  name="SlimRoms"
+           fetch="https://github.com/SlimRoms/" />
   <remote  name="github"
            fetch="https://github.com/" />
   <remote  fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
