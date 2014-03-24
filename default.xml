@@ -76,6 +76,7 @@
   <project path="device/samsung/toroplus" name="android_device_samsung_toroplus" remote="th" revision="jb-mr2" groups="notdefault,device,toroplus" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="th" revision="kitkat" groups="notdefault,device,tuna" />
   <project path="device/sony/honami" name="android_device_sony_honami" remote="th" revision="kitkat" groups="notdefault,device,honami" />
+  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" remote="th" revision="kitkat" />
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="ljjehl" revision="kitkat" groups="notdefault,device,endeavoru" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="th" revision="kitkat"  />
