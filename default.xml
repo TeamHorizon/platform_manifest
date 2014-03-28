@@ -78,6 +78,7 @@
   <project path="device/sony/honami" name="android_device_sony_honami" remote="th" revision="kitkat" groups="notdefault,device,honami" />
   <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" remote="th" revision="kitkat" />
   <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="ljjehl" revision="kitkat" groups="notdefault,device,endeavoru" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-11.0" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="th" revision="kitkat"  />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
