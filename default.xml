@@ -520,7 +520,6 @@
   <project path="vendor/asus" name="android_vendor_asus" remote="th" revision="kitkat" />
   <project path="vendor/lge" name="vendor_lge" remote="th" revision="kitkat" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
-  <project path="vendor/samsung" name="platform_vendor_samsung" remote="th" revision="kitkat" />
   <project path="vendor/sony" name="vendor_sony" remote="th" revision="kitkat" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="kitkat" />
   
