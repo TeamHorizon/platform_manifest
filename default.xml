@@ -87,7 +87,7 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="th" revision="kitkat"  />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omni" revision="android-4.4" groups="pdk" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="th" revision="kitkat" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="dalvik" remote="th" revision="kitkat" />
   <project path="developers/build" name="platform/developers/build" />
