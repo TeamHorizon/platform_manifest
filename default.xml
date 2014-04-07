@@ -39,7 +39,7 @@
   <project path="build" name="android_build" remote="th" revision="kitkat">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="android_art" remote="cm" revision="cm-11.0" />
+  <project path="art" name="android_art" remote="th" revision="kitkat" />
   
   <!-- Xenon Additions -->
   <project path="packages/apps/ROMSettings" name="packages_apps_ROMSettings" remote="th" revision="kitkat" />
@@ -118,7 +118,7 @@
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
-  <project path="external/chromium" name="platform/external/chromium" />
+  <project path="external/chromium" name="android_external_chromium" remote="th" revision="kitkat" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/chromium_org" name="android_external_chromium_org" remote="cm" revision="cm-11.0" />
@@ -145,15 +145,15 @@
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" />
   <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" />
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" />
-  <project path="external/clang" name="android_external_clang" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="external/clang" name="LiquidSmooth/android_external_clang" remote="github" revision="kitkat" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
+  <project path="external/dnsmasq" name="platform_external_dnsmasq" remote="th" revision="kitkat"  />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" />
-  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="th" revision="kitkat" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -187,7 +187,7 @@
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" />
   <project path="external/iptables" name="platform/external/iptables" />
-  <project path="external/iputils" name="platform/external/iputils" />
+  <project path="external/iputils" name="aospal/android_external_iputils" remote="github" revision="kitkat" />
   <project path="external/jack" name="platform/external/jack" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
@@ -251,9 +251,9 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
-  <project path="external/openssh" name="platform/external/openssh" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
-  <project path="external/oprofile" name="platform/external/oprofile" />
+  <project path="external/openssh" name="aospal/android_external_openssh" remote="github" revision="kitkat" />
+  <project path="external/openssl" name="aospal/android_external_openssl" remote="github" revision="kitkat" />
+  <project path="external/oprofile" name="aospal/android_external_oprofile" remote="github" revision="kitkat" />
   <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-11.0" />
   <project path="external/pixman" name="platform/external/pixman" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -269,7 +269,7 @@
   <project path="external/sepolicy" name="android_external_sepolicy" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="platform/external/skia" />
+  <project path="external/skia" name="external_skia" remote="th" revision="kitkat"/>
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -277,7 +277,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
+  <project path="external/stlport" name="aospal/android_external_stlport" remote="github" revision="kitkat" />
   <project path="external/strace" name="platform/external/strace" />
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
@@ -291,7 +291,7 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
-  <project path="external/webp" name="platform/external/webp" />
+  <project path="external/webp" name="android_external_webp" remote="th" revision="kitkat" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/wpa_supplicant_8_ti" name="android_external_wpa_supplicant_8_ti" remote="cm" revision="cm-11.0" groups="pdk" />
@@ -306,8 +306,8 @@
   <project path="frameworks/base" name="platform_frameworks_base" remote="th" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
-  <project path="frameworks/compile/slang" name="frameworks_compile_slang" remote="th" revision="kitkat" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" />
+  <project path="frameworks/compile/slang" name="aospal/android_frameworks_compile_slang" remote="github" revision="kitkat" />
+  <project path="frameworks/ex" name="aospal/android_frameworks_ex" remote="github" revision="kitkat" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
   <project path="frameworks/native" name="frameworks_native" remote="th" revision="kitkat" groups="pdk" />
@@ -321,18 +321,18 @@
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
+  <project path="frameworks/opt/net/voip" name="aospal/android_frameworks_opt_net_voip" remote="github" revision="kitkat" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="th" revision="kitkat" groups="pdk" />
   <project path="frameworks/opt/vcard" name="frameworks_opt_vcard" remote="th" revision="kitkat" />
-  <project path="frameworks/rs" name="android_frameworks_rs" groups="pdk" remote="cm" revision="cm-11.0" />
+  <project path="frameworks/rs" name="android_frameworks_rs" remote="th" revision="kitkat" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-11.0" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
+  <project path="frameworks/wilhelm" name="aospal/android_frameworks_wilhelm" remote="github" revision="kitkat" />
   
   <!-- Hardware -->
   <project path="hardware/akm" name="platform/hardware/akm" />
@@ -347,7 +347,7 @@
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="th" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="th" revision="kitkat" groups="qcom" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-11.0" groups="qcom" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="th" revision="kitkat" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="th" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="th" revision="kitkat" groups="qcom" />
@@ -356,14 +356,14 @@
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="slim" revision="kk4.4" groups="qcom" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="th" revision="kitkat" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-11.0" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-11.0" />
-  <project path="libcore" name="platform_libcore" remote="slim" revision="kk4.4" />
+  <project path="libcore" name="platform_libcore" remote="th" revision="kitkat" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   
@@ -383,7 +383,7 @@
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="th" revision="kitkat" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="th" revision="kitkat" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="th" revision="kitkat" />
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="omni" revision="android-4.4" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="th" revision="kitkat" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="th" revision="kitkat" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
