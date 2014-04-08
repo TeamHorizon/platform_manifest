@@ -528,7 +528,7 @@
   <project path="vendor/lge" name="vendor_lge" remote="th" revision="kitkat" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-11.0" />
   <project path="vendor/samsung" name="vendor_samsung" remote="th" revision="kitkat" />
-  <project path="vendor/sony" name="vendor_sony" remote="th" revision="kitkat" />
+  <project path="vendor/sony" name="proprietary_vendor_sony" remote="slim" revision="kk4.4" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="kitkat" />
   
   <!-- Manifest -->
