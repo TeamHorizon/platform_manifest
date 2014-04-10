@@ -284,7 +284,7 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" />
   <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
@@ -348,7 +348,7 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="th" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="th" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="th" revision="kitkat" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="th" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="th" revision="kitkat" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
