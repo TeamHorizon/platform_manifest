@@ -252,7 +252,7 @@
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="aospal/android_external_openssh" remote="github" revision="kitkat" />
-  <project path="external/openssl" name="aospal/android_external_openssl" remote="github" revision="kitkat" />
+  <project path="external/openssl" name="android_external_openssl" remote="th" revision="kitkat" />
   <project path="external/oprofile" name="aospal/android_external_oprofile" remote="github" revision="kitkat" />
   <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-11.0" />
   <project path="external/pixman" name="platform/external/pixman" />
