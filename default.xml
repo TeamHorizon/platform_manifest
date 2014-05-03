@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
   <remote  name="th"
            fetch="https://github.com/TeamHorizon/" 
-           review="review.gerrithub.io" />
+           review="gerrit.xenonhd.com" />
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
   <remote  name="ljjehl"
