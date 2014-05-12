@@ -419,7 +419,7 @@
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0" />
+  <!--project path="packages/apps/ThemeChooser" name="android_packages_apps_ThemeChooser" remote="cm" revision="cm-11.0" /-->
  <project path="packages/providers/ThemesProvider" name="android_packages_providers_ThemesProvider" remote="th" revision="kitkat" />
   <project path="packages/apps/Torch" name="packages_apps_Torch" remote="aokp" revision="kitkat" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
