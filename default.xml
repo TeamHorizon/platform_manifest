@@ -30,7 +30,7 @@
            fetch="https://github.com/" />
   <remote  fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
 
-  <default revision="refs/tags/android-4.4.2_r2"
+  <default revision="refs/tags/android-4.4.4_r2"
            remote="aosp"
            sync-c="true"
            sync-f="true"
