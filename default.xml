@@ -332,7 +332,6 @@
   <project path="frameworks/rs" name="android_frameworks_rs" remote="th" revision="kitkat" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="cm" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="aospal/android_frameworks_wilhelm" remote="github" revision="kitkat" />
