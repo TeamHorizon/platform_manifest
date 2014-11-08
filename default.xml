@@ -4,14 +4,14 @@
   <remote  name="aosp"
            fetch=".." />
   <remote  name="th"
-           fetch="https://github.com/TeamHorizon/" 
+           fetch="https://github.com/TeamHorizon/"
            review="gerrit.xenonhd.com" />
 
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
+  <project path="build" name="android_build" remote="th" revision="lollipop">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -510,5 +510,11 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+  <!-- Vendors -->
+  <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="lollipop" />
+
+  <!-- Manifest -->
+  <project path="platform_manifest" name="platform_manifest" remote="th" revision="lollipop" />
 
 </manifest>
