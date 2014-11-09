@@ -72,11 +72,13 @@
   <project path="external/apache-qp" name="platform/external/apache-qp" groups="pdk-cw-fs" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk-cw-fs" />
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
+  <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-12.0" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-12.0" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
@@ -119,12 +121,13 @@
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" />
   <project path="external/deqp" name="platform/external/deqp" />
+  <project path="external/curl" name="android_external_curl" remote="cm" revision="cm-12.0" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="cm" revision="cm-12.0" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
@@ -155,6 +158,8 @@
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
+  <project path="external/heimdall" name="android_external_heimdall" remote="cm" revision="cm-12.0" />
+  <project path="external/htop" name="android_external_htop" remote="cm" revision="cm-12.0" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
@@ -186,6 +191,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="cm-12.0" />
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" groups="pdk" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" />
@@ -212,6 +218,8 @@
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
+  <project path="external/lsof" name="android_external_lsof" remote="cm" revision="cm-12.0" />
+  <project path="external/lzo" name="android_external_lzo" remote="cm" revision="cm-12.0" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
   <project path="external/mesa3d" name="platform/external/mesa3d" groups="pdk-cw-fs" />
@@ -249,6 +257,7 @@
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs" />
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
+  <project path="external/rsync" name="android_external_rsync" remote="cm" revision="cm-12.0" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
