@@ -1,6 +1,6 @@
 XenonHD
 ===========
-Blazing Fast Android 
+Blazing fast, Rock-Hard stability. 
 
 Getting Started
 ---------------
@@ -29,7 +29,7 @@ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/rep
 You may need to reboot for these changes to take effect. 
 Now enter the following to initialize the repository:
 
-    cd ~/carbon
+    cd ~/xenon
 
 
 Repositories:
