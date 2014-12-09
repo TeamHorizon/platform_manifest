@@ -326,6 +326,7 @@
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" groups="pdk-cw-fs" remote="th" revision="cm-12.0" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="android_frameworks_opt_mms" groups="pdk-cw-fs" remote="th" revision="lollipop" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="th" revision="lollipop" />
@@ -424,7 +425,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="th" revision="lollipop" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="th" revision="lollipop" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
