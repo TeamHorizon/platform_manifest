@@ -88,7 +88,7 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" />
+  <project path="external/chromium_org" name="android_external_chromium_org" remote="th" revision="cm-12.0" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -256,7 +256,7 @@
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />
-  <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
+  <project path="external/openssl" name="android_external_openssl" groups="pdk" remote="th" revision="lollipop" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" />
   <project path="external/pciutils" name="android_external_pciutils" remote="cm" revision="cm-12.0" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
@@ -286,6 +286,7 @@
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
   <project path="external/srec" name="platform/external/srec" groups="pdk-cw-fs" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="th" revision="lollipop" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" />
