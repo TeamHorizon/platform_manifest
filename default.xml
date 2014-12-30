@@ -558,7 +558,9 @@
   <!-- Vendors -->
   <project path="vendor/asus" name="android_vendor_asus" remote="th" revision="lollipop" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="th" revision="lollipop" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="th" revision="lollipop" />
   <project path="vendor/lge" name="vendor_lge" remote="th" revision="lollipop" />
+  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="th" revision="lollipop" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="lollipop" />
 
   <!-- Manifest -->
