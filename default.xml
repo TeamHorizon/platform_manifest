@@ -63,6 +63,9 @@
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
+  <project path="device/oneplus/bacon" name="android_device_oneplus_bacon" remote="th" revision="lollipop" />
+  <project path="device/oppo/common" name="android_device_oppo_common" remote="th" revision="lollipop" />
+  <project path="device/oppo/msm8974-common" name="android_device_oppo_msm8974-common" remote="th" revision="lollipop" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="th" revision="lollipop" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="th" revision="lollipop" />
   <project path="device/sample" name="device/sample" groups="pdk" />
@@ -72,6 +75,9 @@
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
   <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-12.0" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="cm" revision="cm-12.0" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="cm" revision="cm-12.0" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="cm" revision="cm-12.0" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" />
   <project path="external/apache-http" name="platform/external/apache-http" groups="pdk-cw-fs" />
@@ -562,6 +568,7 @@
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="th" revision="lollipop" />
   <project path="vendor/lge" name="vendor_lge" remote="th" revision="lollipop" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="th" revision="lollipop" />
+  <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="th" revision="lollipop" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="lollipop" />
 
   <!-- Manifest -->
