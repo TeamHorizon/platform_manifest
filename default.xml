@@ -400,6 +400,7 @@
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" groups="qcom,qcom_sensors" remote="th" revision="lollipop" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="th" revision="cm-12.0" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="th" revision="lollipop" />
+  <project path="hardware/ril-caf" name="android_hardware_ril-caf" groups="qcom" remote="cm" revision="cm-12.0" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
