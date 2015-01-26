@@ -12,6 +12,8 @@
            fetch="https://github.com/UBERUTILS/" />
   <remote  name="slim"
            fetch="https://github.com/SlimRoms/" />
+  <remote  name="tm"
+           fetch="https://github.com/TheMuppets/" />
 
   <default revision="refs/tags/android-5.0.2_r1"
            remote="aosp"
@@ -567,11 +569,14 @@
 
   <!-- Vendors -->
   <project path="vendor/asus" name="android_vendor_asus" remote="th" revision="lollipop" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-12.0" />
+  <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-12.0" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="th" revision="lollipop" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="th" revision="lollipop" />
   <project path="vendor/lge" name="vendor_lge" remote="th" revision="lollipop" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="th" revision="lollipop" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="th" revision="lollipop" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-12.0" />
   <project path="vendor/oneplus" name="proprietary_vendor_oneplus" remote="th" revision="lollipop" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="th" revision="cm-12.0" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="lollipop" />
