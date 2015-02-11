@@ -4,7 +4,8 @@
   <remote  name="github"
 	   fetch=".."
 	   review="review.cyanogenmod.org" />
-
+  <remote  name="gh"
+           fetch="https://github.com/" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote  name="th"
