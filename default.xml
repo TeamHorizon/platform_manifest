@@ -572,6 +572,6 @@
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="lollipop" />
 
   <!-- Manifest -->
-  <project path="platform_manifest" name="platform_manifest" remote="th" revision="lollipop-test" />
+  <project path="platform_manifest" name="platform_manifest" remote="th" revision="lollipop" />
 
 </manifest>
