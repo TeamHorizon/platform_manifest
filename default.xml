@@ -14,7 +14,7 @@
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
 
-  <default revision="refs/tags/android-5.0.2_r1"
+  <default revision="refs/tags/android-5.1.0_r1"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -568,6 +568,6 @@
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="lollipop" />
 
   <!-- Manifest -->
-  <project path="platform_manifest" name="platform_manifest" remote="th" revision="lollipop" />
+  <project path="platform_manifest" name="platform_manifest" remote="th" revision="lp-mr1" />
 
 </manifest>
