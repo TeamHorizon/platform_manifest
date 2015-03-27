@@ -179,7 +179,6 @@
   <project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="staging/cm-12.1" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-12.0" />
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-12.0" />
-  <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-12.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-12.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
@@ -263,7 +262,7 @@
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" />
   <project path="external/pixman" name="platform/external/pixman" groups="pdk-cw-fs" />
   <project path="external/pigz" name="android_external_pigz" remote="cm" revision="staging/cm-12.1" />
-  <project path="external/powertop" name="android_external_powertop" remote="cm" revision="staging/cm-12.1" />
+  <!-- project path="external/powertop" name="android_external_powertop" remote="cm" revision="staging/cm-12.1" /-->
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java,tradefed" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
