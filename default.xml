@@ -179,8 +179,8 @@
   <project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="staging/cm-12.1" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="staging/cm-12.1" />
   <project path="external/koush/ion" name="ion" remote="cm" revision="staging/cm-12.1" />
-  <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="cm-12.0" />
-  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-12.0" />
+  <project path="external/koush/Superuser" name="Superuser" remote="cm" revision="staging/cm-12.1" />
+  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="staging/cm-12.1" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
@@ -381,14 +381,14 @@
   <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="th" revision="cm-12.0-caf-8084" />
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="th" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="th" revision="cm-12.0-caf-8974" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="cm" revision="staging/cm-12.1" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="staging/cm-12.1" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="th" revision="staging/cm-12.1" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="th" revision="staging/cm-12.1" />
   <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="th" revision="cm-12.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="th" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="th" revision="cm-12.0-caf-8974" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="th" revision="lollipop" />
-  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" remote="cm" revision="staging/cm-12.1" />
-  <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="staging/cm-12.1" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" remote="th" revision="staging/cm-12.1" />
+  <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="th" revision="staging/cm-12.1" />
   <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" remote="th" revision="cm-12.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" remote="th" revision="cm-12.0-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="th" revision="cm-12.0-caf-8974" />
