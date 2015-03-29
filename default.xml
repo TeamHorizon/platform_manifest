@@ -19,12 +19,12 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="th" revision="lollipop">
+  <project path="build" name="android_build" remote="th" revision="lp-mr1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="android_art" groups="pdk" remote="th" revision="lollipop" />
-  <project path="bionic" name="android_bionic" groups="pdk" remote="th" revision="lollipop" />
+  <project path="art" name="android_art" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="th" revision="lp-mr1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="th" revision="lollipop" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -35,8 +35,8 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="th" revision="lollipop" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="th" revision="lollipop" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="th" revision="lp-mr1" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="th" revision="lp-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -52,7 +52,7 @@
   <project path="external/apache-qp" name="platform/external/apache-qp" groups="pdk-cw-fs" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk-cw-fs" />
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
-  <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-12.0" />
+  <project path="external/bash" name="android_external_bash" remote="cm" revision="staging/cm-12.1" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" remote="cm" revision="staging/cm-12.1" />
@@ -178,7 +178,7 @@
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" />
   <project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="staging/cm-12.1" />
   <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-12.0" />
-  <project path="external/koush/ion" name="ion" remote="cm" revision="cm-12.0" />
+  <project path="external/koush/ion" name="ion" remote="cm" revision="staging/cm-12.1" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-12.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
@@ -316,8 +316,8 @@
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="cm" revision="staging/cm-12.1" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="th" revision="lollipop" />
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="th" revision="lollipop" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="th" revision="staging/lp-mr1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
