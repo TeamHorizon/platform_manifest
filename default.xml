@@ -394,6 +394,7 @@
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-12.1-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-12.1-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8226" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-12.1-caf-8226" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="th" revision="lollipop" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="th" revision="lollipop" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" remote="cm" revision="cm-12.1" />
   <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.1" />
