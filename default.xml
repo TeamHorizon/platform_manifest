@@ -20,7 +20,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="th" revision="lp-mr1">
+  <project path="build" name="android_build" remote="th" revision="lp-mr1-caf">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -352,7 +352,7 @@
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <project path="frameworks/webview" name="platform_frameworks_webview" remote="th" revision="lp-mr1" groups="pdk-cw-fs" />
+  <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="th" revision="lp-mr1" />
@@ -376,41 +376,20 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="th" revision="lp-mr1" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="th" revision="lp-mr1" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
-  <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-12.1" />
-  <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-12.1-caf-8084" />
-  <project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-12.1-caf-8916" />
-  <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-12.1-caf-8960" />
-  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-12.1-caf-8974" />
-  <project path="hardware/qcom/audio-caf/msm8226" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="cm" revision="cm-12.1-caf-8226" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="th" revision="lp-mr1-caf-bacon" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="cm" revision="cm-12.1" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-12.1" />
-  <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-12.1-caf-8084" />
-  <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-12.1-caf-8916" />
-  <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-12.1-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-12.1-caf-8974" />
-  <project path="hardware/qcom/display-caf/msm8226" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-12.1-caf-8226" />
+  <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="lp-mr1-caf-bacon" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="th" revision="lollipop" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" remote="cm" revision="cm-12.1" />
   <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.1" />
-  <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.1-caf-8084" />
-  <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.1-caf-8916" />
-  <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.1-caf-8960" />
-  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.1-caf-8974" />
-  <project path="hardware/qcom/media-caf/msm8226" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.1-caf-8226" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
-  <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
-  <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
+  <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="lp-mr1-caf-bacon" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
-  <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" groups="qcom,qcom_sensors" remote="th" revision="lollipop" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="th" revision="lp-mr1" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="th" revision="lp-mr1" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="qcom" remote="cm" revision="cm-12.1-caf" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
-  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="libcore" name="android_libcore" groups="pdk" remote="cm" revision="cm-12.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
@@ -580,6 +559,6 @@
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="th" revision="lp-mr1" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="lp-mr1" />
   <!-- Manifest -->
-  <project path="platform_manifest" name="platform_manifest" remote="th" revision="lp-mr1" />
+  <project path="platform_manifest" name="platform_manifest" remote="th" revision="lp-mr1-caf" />
 
 </manifest>
