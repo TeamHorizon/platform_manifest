@@ -392,7 +392,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="th" revision="lp-mr1" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="th" revision="lp-mr1" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="qcom" remote="cm" revision="cm-12.1-caf" />
-  <project path="kernel/oneplus/msm8974" name="sultanxda/android_kernel_oneplus_msm8974-common" remote="gh" revision="cm-12.1-caf" />
+  <project path="kernel/oneplus/msm8974" name="sultanxda/android_kernel_oneplus_msm8974" remote="gh" revision="cm-12.1-caf" />
   <project path="libcore" name="android_libcore" groups="pdk" remote="cm" revision="cm-12.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
