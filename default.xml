@@ -36,7 +36,7 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
-  <project path="device/oneplus/bacon" name="android_device_oneplus_bacon" remote="th" revision="caf" />
+  <project path="device/oneplus/bacon" name="android_device_oneplus_baconcaf" remote="th" revision="lp-mr1-caf" />
   <project path="device/oppo/msm8974-common" name="sultanxda/android_device_oppo_msm8974-common" remote="gh" revision="cm-12.1-caf" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="th" revision="lp-mr1" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="th" revision="lp-mr1" />
