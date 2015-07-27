@@ -36,8 +36,8 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
-  <project path="device/oneplus/bacon" name="android_device_oneplus_bacon" remote="th" revision="caf"
-  <project path="device/oppo/msm8974-common" name="sultanxda/android_device_oppo_msm8974-common" remote="gh" revision="cm-12.1-caf"
+  <project path="device/oneplus/bacon" name="android_device_oneplus_bacon" remote="th" revision="caf" />
+  <project path="device/oppo/msm8974-common" name="sultanxda/android_device_oppo_msm8974-common" remote="gh" revision="cm-12.1-caf" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="th" revision="lp-mr1" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="th" revision="lp-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
@@ -392,7 +392,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="th" revision="lp-mr1" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="th" revision="lp-mr1" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="qcom" remote="cm" revision="cm-12.1-caf" />
-  <project path="kernel/oneplus/msm8974" name="sultanxda/android_kernel_oneplus_msm8974-common" remote="gh" revision="cm-12.1-caf"
+  <project path="kernel/oneplus/msm8974" name="sultanxda/android_kernel_oneplus_msm8974-common" remote="gh" revision="cm-12.1-caf" />
   <project path="libcore" name="android_libcore" groups="pdk" remote="cm" revision="cm-12.1" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
@@ -558,8 +558,8 @@
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-12.1" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="th" revision="lp-mr1" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="th" revision="lp-mr1" />
-  <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" remote="gh" revision="cm-12.1-caf"
-  <project path="vendor/oppo" name="sultanxda/proprietary_vendor_oneplus" remote="gh" revision="cm-12.1-caf"
+  <project path="vendor/oneplus" name="sultanxda/proprietary_vendor_oneplus" remote="gh" revision="cm-12.1-caf" />
+  <project path="vendor/oppo" name="sultanxda/proprietary_vendor_oneplus" remote="gh" revision="cm-12.1-caf" />
     <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-12.1" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="th" revision="lp-mr1" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="lp-mr1" />
