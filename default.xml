@@ -13,6 +13,8 @@
            fetch="https://github.com/SlimRoms/" />
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
+  <remote  name="t-mac"
+           fetch="https://github.com/T-Macgnolia/" />
 
 
   <default revision="refs/tags/android-5.1.1_r8"
@@ -38,6 +40,7 @@
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="th" revision="lp-mr1" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="th" revision="lp-mr1" />
+  <project path="device/lge/c50" name="android_device_lge_c50" remote="t-mac" revision="lp-mr1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
