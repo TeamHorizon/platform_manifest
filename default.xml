@@ -13,6 +13,8 @@
            fetch="https://github.com/SlimRoms/" />
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
+  <remote  name="bb"
+           fetch="https://bitbucket.com/" />
 
 
   <default revision="refs/tags/android-5.1.1_r8"
