@@ -316,7 +316,7 @@
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="cm" revision="cm-12.1" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="th" revision="lp-mr1-caf" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="th" revision="lp-mr1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -326,7 +326,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="frameworks_native" remote="th" revision="lp-mr1" groups="pdk" />
+  <project path="frameworks/native" name="frameworks_native" remote="th" revision="lp-mr1-caf" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="th" revision="lollipop" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -557,7 +557,7 @@
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="th" revision="lp-mr1" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-12.1" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="th" revision="lp-mr1" />
-  <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="lp-mr1" />
+  <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="lp-mr1-caf" />
   <!-- Manifest -->
   <project path="platform_manifest" name="platform_manifest" remote="th" revision="lp-mr1-caf" />
 
