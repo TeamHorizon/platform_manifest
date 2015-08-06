@@ -17,7 +17,7 @@
            fetch="https://bitbucket.com/" />
 
 
-  <default revision="refs/tags/android-5.1.1_r8"
+  <default revision="refs/tags/android-5.1.1_r9"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
