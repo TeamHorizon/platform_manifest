@@ -13,8 +13,6 @@
            fetch="https://github.com/SlimRoms/" />
   <remote  name="tm"
            fetch="https://github.com/TheMuppets/" />
-  <remote  name="bb"
-           fetch="https://bitbucket.com/" />
 
 
   <default revision="refs/tags/android-5.1.1_r13"
@@ -351,7 +349,7 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="frameworks_opt_vcard" groups="pdk-cw-fs" remote="th" revision="lollipop" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="th" revision="lp-mr1" groups="pdk" />
+  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/webview" name="platform_frameworks_webview" remote="th" revision="lp-mr1" groups="pdk-cw-fs" />
@@ -500,8 +498,6 @@
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" clone-depth="1" />
   <project path="prebuilts/clang/darwin-x86/host/3.5" name="platform/prebuilts/clang/darwin-x86/host/3.5" groups="pdk,darwin" />
   <project path="prebuilts/clang/linux-x86/host/3.5" name="platform/prebuilts/clang/linux-x86/host/3.5" groups="pdk,linux" />
-  <project path="prebuilts/clang/linux-x86/host/3.5.2" name="Joe_maples/prebuilts_clang_linux-x86_host_3.5" remote="bb" revision="master" groups="pdk,linux" />
-  <project path="prebuilts/clang/linux-x86/host/3.6-qcom" name="prebuilts_clang_linux-x86_host_3.6-qcom" remote="th" revision="master" groups="pdk,linux" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
@@ -527,7 +523,7 @@
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" />
-  <project path="prebuilts/ndk" name="platform_prebuilts_ndk" remote="th" revision="lp-mr1" groups="pdk" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
