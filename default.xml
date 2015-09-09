@@ -15,7 +15,7 @@
            fetch="https://github.com/TheMuppets/" />
 
 
-  <default revision="refs/tags/android-5.1.1_r13"
+  <default revision="refs/tags/android-5.1.1_r14"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -279,7 +279,7 @@
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="th" revision="lp-mr1" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="cm" revision="cm-12.1" />
+  <project path="external/skia" name="android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="th" revision="lp-mr1" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fs" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonivox" name="android_external_sonivox" remote="cm" revision="cm-12.1" />
