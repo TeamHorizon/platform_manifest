@@ -20,7 +20,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="th" revision="lp-mr1">
+  <project path="build" name="android_build" remote="th" revision="mm">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -564,8 +564,8 @@
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="th" revision="lp-mr1" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-12.1" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="th" revision="lp-mr1" />
-  <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="lp-mr1" />
+  <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="mm" />
   <!-- Manifest -->
-  <project path="platform_manifest" name="platform_manifest" remote="th" revision="lp-mr1" />
+  <project path="platform_manifest" name="platform_manifest" remote="th" revision="mm" />
 
 </manifest>
