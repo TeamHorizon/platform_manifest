@@ -37,10 +37,19 @@ Repositories:
 
 For initializing repo use:
 
-    repo init -u https://github.com/TeamHorizon/platform_manifest.git -b lp-mr1
+    repo init -u https://github.com/TeamHorizon/platform_manifest.git -b mm
 
 sync repo:
 
     repo sync -j2 | -j4 |-j8 | -j32 (# of CPUs x2)
 
+Gerrit:
+---------------
 
+We are using Gerrit Code Review:
+
+    gerrit.xenonhd.com
+
+How to use Gerrit: 
+
+    https://goo.gl/L7Dhwh
