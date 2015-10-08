@@ -24,8 +24,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="android_art" groups="pdk" remote="th" revision="lp-mr1" />
-  <project path="bionic" name="android_bionic" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="art" name="android_art" groups="pdk" remote="th" revision="mm" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="th" revision="mm" />
+  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="th" revision="lp-mr1" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
@@ -76,7 +77,7 @@
   <project path="external/curl" name="android_external_curl" remote="cm" revision="cm-12.1" />
   <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" />
-  <project path="external/dhcpcd" name="android_external_dhcpcd" groups="pdk-cw-fs" remote="th" revision="lp-mr1" />
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/donuts" name="platform/external/donuts" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" groups="pdk" remote="cm" revision="cm-12.1" />
@@ -101,7 +102,7 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-12.1" />
   <project path="external/fio" name="platform/external/fio" />
-  <project path="external/flac" name="external_flac" groups="pdk" remote="th" revision="lp-mr1"/>
+  <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk-cw-fs" remote="cm" revision="cm-12.1" />
@@ -128,7 +129,7 @@
   <project path="external/icu" name="android_external_icu" groups="pdk" remote="cm" revision="cm-12.1" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" />
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
-  <project path="external/iptables" name="android_external_iptables" groups="pdk-cw-fs" remote="th" revision="lp-mr1"/>
+  <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" />
   <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" remote="cm" revision="cm-12.1" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" />
@@ -177,7 +178,7 @@
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" revision="cm-12.1" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
-  <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="android_external_libppp" remote="cm" revision="cm-12.1" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" remote="cm" revision="cm-12.1" />
@@ -255,9 +256,9 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" />
-  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="th" revision="mm" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="th" revision="lp-mr1" />
+  <project path="external/skia" name="android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="th" revision="mm" />
   <project path="external/slf4j" name="platform/external/slf4j" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonic" name="platform/external/sonic" />
@@ -290,14 +291,14 @@
   <project path="external/vogar" name="platform/external/vogar" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="th" revision="mm" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="cm" revision="cm-12.1" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="th" revision="lp-mr1" />
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="th" revision="lp-mr1" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="th" revision="mm" />
+  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs" remote="th" revision="mm" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -307,33 +308,33 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="frameworks_native" remote="th" revision="lp-mr1" groups="pdk" />
+  <project path="frameworks/native" name="frameworks_native" remote="th" revision="mm" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
-  <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="th" revision="lollipop" />
+  <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="th" revision="mm" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
   <project path="frameworks/opt/cards" name="frameworks_opt_cards" groups="pdk-cw-fs" remote="slim" revision="lp5.1" />
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" groups="pdk-cw-fs" remote="th" revision="lp-mr1" />
+  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" groups="pdk-cw-fs" remote="th" revision="mm" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" groups="pdk-cw-fs" remote="th" revision="lp-mr1" />
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" groups="pdk-cw-fs" remote="cm" revision="cm-12.1" />
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="th" revision="lp-mr1" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="th" revision="mm" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="th" revision="mm" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="th" revision="mm" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/vcard" name="frameworks_opt_vcard" groups="pdk-cw-fs" remote="th" revision="lollipop" />
+  <project path="frameworks/opt/vcard" name="frameworks_opt_vcard" groups="pdk-cw-fs" remote="th" revision="mm" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <project path="frameworks/webview" name="platform_frameworks_webview" remote="th" revision="lp-mr1" groups="pdk-cw-fs" />
+  <project path="frameworks/webview" name="platform_frameworks_webview" remote="th" revision="mm" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="th" revision="lp-mr1" />
@@ -354,7 +355,7 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="th" revision="mm" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="th" revision="lp-mr1" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" />
@@ -378,7 +379,7 @@
   <project path="hardware/qcom/display-caf/msm8974-vanilla" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="th" revision="lp-mr1-caf-bacon" />
   <project path="hardware/qcom/display-caf/msm8226" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-12.1-caf-8226" />
   <project path="hardware/qcom/display-caf/msm8610" name="android_hardware_qcom_display" groups="qcom,qcom_display" remote="cm" revision="cm-12.1-caf-8610" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="th" revision="lollipop" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="th" revision="mm" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom" remote="cm" revision="cm-12.1" />
   <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.1" />
   <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-12.1-caf-8084" />
@@ -393,9 +394,9 @@
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" groups="qcom,qcom_sensors" remote="th" revision="lollipop" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="th" revision="lp-mr1" />
-  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" groups="qcom,qcom_sensors" remote="th" revision="mm" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="th" revision="mm" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="th" revision="mm" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="qcom" remote="cm" revision="cm-12.1-caf" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
@@ -405,29 +406,29 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="cm" revision="cm-12.1" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs" remote="th" revision="mm" />
   <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" groups="pdk-cw-fs" remote="th" revision="lp-mr1" />
-  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="th" revision="lp-mr1" />
-  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="th" revision="lp-mr1" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="th" revision="mm" />
+  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="th" revision="mm" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="th" revision="mm" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="th" revision="mm" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="th" revision="lp-mr1" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="th" revision="lp-mr1" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="th" revision="lp-mr1" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="th" revision="mm" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="th" revision="mm" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="th" revision="mm" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="th" revision="mm" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" revision="cm-12.1" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="th" revision="mm" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="th" revision="mm" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-12.1" />
@@ -437,45 +438,44 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
-  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" remote="th" revision="mm" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
-  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="th" revision="mm" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <!-- <project path="packages/apps/ScreenRecorder" name="android_packages_apps_ScreenRecorder" remote="th" revision="lollipop" /> -->
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="th" revision="mm" />
   <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="slim" revision="lp5.1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="th" revision="lp-mr1" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="th" revision="mm" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/XenonOTA" name="android_packages_apps_XenonOTA" remote="th" revision="lp-mr1" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="th" revision="lp-mr1" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="th" revision="mm" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/BookmarkProvider" name="platform/packages/providers/BookmarkProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" groups="pdk-cw-fs" />
   <project path="packages/providers/CallLogProvider" name="platform/packages/apps/CallLogProvider" />
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" groups="pdk-cw-fs" remote="th" revision="lp-mr1" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs" remote="th" revision="lp-mr1" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs" remote="th" revision="lp-mr1" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" groups="pdk-cw-fs" remote="th" revision="mm" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs" remote="th" revision="mm" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs" remote="th" revision="mm" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="th" revision="lp-mr1" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="th" revision="mm" />
   <project path="packages/providers/TvProvider" name="platform/packages/providers/TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" groups="pdk-cw-fs" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
   <project path="packages/screensavers/PhotoTable" name="platform/packages/screensavers/PhotoTable" />
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
-  <project path="packages/services/Mms" name="android_packages_services_Mms" remote="th" revision="lp-mr1" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="th" revision="lp-mr1" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="th" revision="lp-mr1" />
+  <project path="packages/services/Mms" name="android_packages_services_Mms" remote="th" revision="mm" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="th" revision="mm" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="th" revision="mm" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -514,15 +514,15 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/bt" name="platform/system/bt" />
-  <project path="system/core" name="android_system_core" remote="th" revision="lp-mr1" groups="pdk" />
-  <project path="system/extras" name="system_extras" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="system/core" name="android_system_core" remote="th" revision="mm" groups="pdk" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="th" revision="mm" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="android_system_media" groups="pdk" remote="th" revision="lp-mr1" />
-  <project path="system/netd" name="android_system_netd" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="system/media" name="android_system_media" groups="pdk" remote="th" revision="mm" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="th" revision="mm" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="th" revision="lp-mr1" />
-  <project path="system/vold" name="system_vold" remote="th" revision="lp-mr1" groups="pdk" />
+  <project path="system/vold" name="system_vold" remote="th" revision="mm" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
