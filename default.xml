@@ -26,7 +26,7 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" groups="pdk" remote="th" revision="mm" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="th" revision="mm" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -36,13 +36,13 @@
   <project path="development" name="platform/development" groups="pdk-cw-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs" />
   <!--project path="device/qcom/common" name="android_device_qcom_common" remote="th" revision="lp-mr1" / -->
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="th" revision="lp-mr1" />
+  <!--project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="th" revision="lp-mr1" / -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/androidplot" name="platform/external/androidplot" />
-  <project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-13.0" />
+  <!-- project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-13.0" /-->
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
   <!--project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="cm" revision="cm-13.0" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="cm" revision="cm-13.0" />
@@ -52,7 +52,7 @@
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" />
   <project path="external/apache-http" name="platform/external/apache-http" groups="pdk-cw-fs" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk-cw-fs" />
-  <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-13.0" />
+  <!-- project path="external/bash" name="android_external_bash" remote="cm" revision="cm-13.0" / -->
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
   <project path="external/boringssl" name="platform/external/boringssl" />
@@ -69,11 +69,11 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" />
-  <project path="external/connectivity" name="android_external_connectivity" remote="cm" revision="cm-13.0" />
+  <!--project path="external/connectivity" name="android_external_connectivity" remote="cm" revision="cm-13.0" /-->
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" />
   <project path="external/crcalc" name="platform/external/crcalc" />
-  <project path="external/curl" name="android_external_curl" remote="cm" revision="cm-13.0" />
+  <!--project path="external/curl" name="android_external_curl" remote="cm" revision="cm-13.0" /-->
   <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -83,10 +83,10 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
-  <project path="external/dropbear" name="android_external_dropbear" remote="cm" revision="cm-13.0" />
+  <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
-  <project path="external/ebtables" name="android_external_ebtables" remote="cm" revision="cm-13.0" />
+  <!--project path="external/ebtables" name="android_external_ebtables" remote="cm" revision="cm-13.0" /-->
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" groups="pdk-cw-fs" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk-cw-fs" />
@@ -94,21 +94,21 @@
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,tradefed" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs" />
-  <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-13.0" />
+  <!--project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-13.0" /-->
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="th" revision="lp-mr1" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
-  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-13.0" />
+  <!--project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-13.0" /-->
   <project path="external/fio" name="platform/external/fio" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
-  <project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-13.0" />
+  <!--project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-13.0" /-->
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" />
-  <project path="external/gmock" name="android_external_gmock" remote="cm" revision="cm-13.0"/>
+  <project path="external/gmock" name="platform/external/gmock" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0"/>
   <project path="external/google-breakpad" name="platform/external/google-breakpad" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" />
@@ -116,7 +116,7 @@
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs" />
   <project path="external/google-fonts/cutive-mono" name="platform/external/google-fonts/cutive-mono" groups="pdk-cw-fs" />
   <project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" />
-  <project path="external/gson" name="android_external_gson" remote="cm" revision="cm-13.0"/>
+  <!--project path="external/gson" name="android_external_gson" remote="cm" revision="cm-13.0"/-->
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" />
@@ -129,7 +129,7 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs" />
   <project path="external/iptables" name="platform/external/iptables" groups="pdk-cw-fs" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs" />
-  <project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" remote="cm" revision="cm-13.0" />
+  <!--project path="external/JakeWharton/butterknife" name="android_external_JakeWharton_butterknife" remote="cm" revision="cm-13.0" /-->
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs" />
   <project path="external/jarjar" name="platform/external/jarjar" groups="pdk" />
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs" />
@@ -151,10 +151,10 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,tradefed" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" />
-  <project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="cm-13.0" />
-  <project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-12.0" />
+  <!--project path="external/kissfft" name="android_external_kissfft" remote="cm" revision="cm-13.0" /-->
+  <!-- project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-12.0" />
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-13.0" />
-  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-12.0" />
+  <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-12.0" /-->
   <project path="external/libavc" name="platform/external/libavc" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
@@ -174,18 +174,17 @@
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
-  <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" revision="cm-13.0" />
+  <!--project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" revision="cm-13.0" /-->
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
-  <project path="external/libppp" name="android_external_libppp" remote="cm" revision="cm-13.0" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
-  <project path="external/libtar" name="android_external_libtar" remote="cm" revision="cm-13.0" />
-  <project path="external/libtruezip" name="android_external_libtruezip" remote="cm" revision="cm-13.0" />
+  <!--project path="external/libtar" name="android_external_libtar" remote="cm" revision="cm-13.0" />
+  <project path="external/libtruezip" name="android_external_libtruezip" remote="cm" revision="cm-13.0" /-->
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" />
-  <project path="external/libusbx" name="android_external_libusbx" remote="cm" revision="cm-13.0" />
+  <!--project path="external/libusbx" name="android_external_libusbx" remote="cm" revision="cm-13.0" /-->
   <project path="external/libusb-compat" name="platform/external/libusb-compat" groups="pdk-cw-fs" />
   <project path="external/libutf" name="platform/external/libutf" groups="pdk-cw-fs" />
   <project path="external/libvncserver" name="platform/external/libvncserver" />
@@ -202,9 +201,9 @@
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk-cw-fs" />
   <project path="external/lzma" name="platform/external/lzma" groups="pdk" />
-  <project path="external/lsof" name="android_external_lsof" remote="cm" revision="cm-13.0" />
+  <!--project path="external/lsof" name="android_external_lsof" remote="cm" revision="cm-13.0" /-->
   <project path="external/lz4" name="platform/external/lz4" />
-  <project path="external/lzo" name="android_external_lzo" remote="cm" revision="cm-13.0" />
+  <!--project path="external/lzo" name="android_external_lzo" remote="cm" revision="cm-13.0" /-->
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk-cw-fs" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
@@ -227,45 +226,45 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk-cw-fs" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk-cw-fs" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-13.0" />
+  <!--project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="cm" revision="cm-13.0" /-->
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fw" />
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs"/>
   <project path="external/openssh" name="platform/external/openssh" groups="pdk-cw-fs"/>
-  <project path="external/parameter-framework" name="platform/external/parameter-framework" />
-  <project path="external/pciutils" name="android_external_pciutils" remote="cm" revision="cm-13.0" />
+  <!--project path="external/parameter-framework" name="platform/external/parameter-framework" /-->
+  <!--project path="external/pciutils" name="android_external_pciutils" remote="cm" revision="cm-13.0" /-->
   <project path="external/protobuf-c" name="android_external_protobuf-c" remote="cm" revision="cm-13.0" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" />
   <project path="external/pcre" name="platform/external/pcre" groups="pdk-cw-fs" />
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" />
-  <project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-13.0" />
-  <!-- project path="external/powertop" name="android_external_powertop" remote="cm" revision="cm-13.0" /-->
+  <!--project path="external/pigz" name="android_external_pigz" remote="cm" revision="cm-13.0" />
+  < project path="external/powertop" name="android_external_powertop" remote="cm" revision="cm-13.0" /-->
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java,tradefed" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
-  <project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-13.0" />
+  <!--project path="external/qrngd" name="android_external_qrngd" remote="cm" revision="cm-13.0" /-->
   <project path="external/regex-re2" name="platform/external/regex-re2" groups="pdk-cw-fs" />
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs" />
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" />
   <project path="external/roboto-fonts" name="platform/external/roboto-fonts" />
-  <project path="external/rsync" name="android_external_rsync" remote="cm" revision="cm-13.0" />
+  <!--project path="external/rsync" name="android_external_rsync" remote="cm" revision="cm-13.0" /-->
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />
   <project path="external/selinux" name="platform/external/selinux" />
   <project path="external/sepolicy" name="android_external_sepolicy" groups="pdk" remote="th" revision="mm" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/skia" name="android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="th" revision="mm" />
+  <project path="external/skia" name="platform/external/skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/slf4j" name="platform/external/slf4j" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonic" name="platform/external/sonic" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/spongycastle" name="android_external_spongycastle" groups="pdk" remote="cm" revision="cm-13.0" />
+  <!--project path="external/spongycastle" name="android_external_spongycastle" groups="pdk" remote="cm" revision="cm-13.0" /-->
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
-  <project path="external/square/dagger" name="android_external_square_dagger" remote="cm" revision="cm-13.0" />
-  <project path="external/square/javawriter" name="android_external_square_javawriter" remote="cm" revision="cm-13.0" />
+  <!--project path="external/square/dagger" name="android_external_square_dagger" remote="cm" revision="cm-13.0" />
+  <project path="external/square/javawriter" name="android_external_square_javawriter" remote="cm" revision="cm-13.0" /-->
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
   <!--project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-13.0" / -->
@@ -280,7 +279,7 @@
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/toybox" name="platform/external/toybox" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
-  <project path="external/unrar" name="android_external_unrar" remote="cm" revision="cm-13.0" />
+  <!--project path="external/unrar" name="android_external_unrar" remote="cm" revision="cm-13.0" /-->
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" />
@@ -289,7 +288,7 @@
   <project path="external/vogar" name="platform/external/vogar" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="th" revision="mm" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
@@ -311,10 +310,10 @@
   <project path="frameworks/opt/bluetooth" name="android_frameworks_opt_bluetooth" groups="pdk-cw-fs" remote="th" revision="mm" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/cards" name="frameworks_opt_cards" groups="pdk-cw-fs" remote="slim" revision="lp5.1" />
+  <!--project path="frameworks/opt/cards" name="frameworks_opt_cards" groups="pdk-cw-fs" remote="slim" revision="lp5.1" /-->
   <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" groups="pdk-cw-fs" remote="th" revision="mm" />
+  <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
   <!-- project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" groups="pdk-cw-fs" remote="cm" revision="cm-13.0" /-->
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" />
@@ -327,7 +326,7 @@
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="th" revision="mm" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/vcard" name="frameworks_opt_vcard" groups="pdk-cw-fs" remote="th" revision="mm" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
@@ -392,7 +391,7 @@
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" groups="qcom,qcom_sensors" remote="th" revision="mm" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom,qcom_sensors" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="th" revision="mm" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="th" revision="mm" />
   <!--project path="hardware/ril-caf" name="android_hardware_ril" groups="qcom" remote="cm" revision="cm-12.1-caf" /-->
@@ -402,10 +401,10 @@
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="cm" revision="cm-13.0" />
+  <!-- project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="cm" revision="cm-13.0" /-->
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs" remote="th" revision="mm" />
-  <project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" groups="pdk-cw-fs" remote="th" revision="lp-mr1" />
+  <!-- project path="packages/apps/BluetoothExt" name="android_packages_apps_BluetoothExt" groups="pdk-cw-fs" remote="th" revision="lp-mr1" /-->
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="th" revision="mm" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="th" revision="mm" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="th" revision="mm" />
@@ -418,7 +417,7 @@
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="th" revision="mm" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="th" revision="mm" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="th" revision="mm" />
-  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" revision="cm-13.0" />
+  <!--project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" revision="cm-13.0" /-->
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -429,7 +428,7 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="th" revision="mm" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-13.0" />
+  <!--project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-13.0" /-->
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
@@ -443,7 +442,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="th" revision="mm" />
-  <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="slim" revision="lp5.1" />
+  <!--project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="slim" revision="lp5.1" /-->
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -453,7 +452,7 @@
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
-  <project path="packages/apps/XenonOTA" name="android_packages_apps_XenonOTA" remote="th" revision="lp-mr1" />
+  <!--+project path="packages/apps/XenonOTA" name="android_packages_apps_XenonOTA" remote="th" revision="lp-mr1" /-->
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="th" revision="mm" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
@@ -518,7 +517,7 @@
   <project path="system/media" name="android_system_media" groups="pdk" remote="th" revision="mm" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="th" revision="mm" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="th" revision="lp-mr1" />
+  <!--project path="system/qcom" name="android_system_qcom" groups="qcom" remote="th" revision="lp-mr1" /-->
   <project path="system/vold" name="system_vold" remote="th" revision="mm" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
@@ -536,12 +535,12 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- Vendors -->
-  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-12.1" />
-  <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-12.1" />
-  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="th" revision="lp-mr1" />
+  <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-13.0" />
+  <!--project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-12.1" /-->
+  <!--project path="vendor/invensense" name="proprietary_vendor_invensense" remote="th" revision="lp-mr1" /-->
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="th" revision="lp-mr1" />
-  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-12.1" />
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="th" revision="lp-mr1" />
+  <!--project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-12.1" /-->
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="cm" revision="cm-13.0" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="mm" />
   <!-- Manifest -->
   <project path="platform_manifest" name="platform_manifest" remote="th" revision="mm" />
