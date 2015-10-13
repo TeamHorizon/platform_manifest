@@ -83,7 +83,6 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
-  <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
   <!--project path="external/ebtables" name="android_external_ebtables" remote="cm" revision="cm-13.0" /-->
@@ -108,7 +107,6 @@
   <!--project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-13.0" /-->
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" />
-  <project path="external/gmock" name="platform/external/gmock" />
   <project path="external/google" name="android_external_google" remote="cm" revision="cm-13.0"/>
   <project path="external/google-breakpad" name="platform/external/google-breakpad" />
   <project path="external/google-fonts/coming-soon" name="platform/external/google-fonts/coming-soon" groups="pdk-cw-fs" />
@@ -540,7 +538,7 @@
   <!--project path="vendor/invensense" name="proprietary_vendor_invensense" remote="th" revision="lp-mr1" /-->
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="th" revision="lp-mr1" />
   <!--project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-12.1" /-->
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="cm" revision="cm-13.0" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-13.0" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="mm" />
   <!-- Manifest -->
   <project path="platform_manifest" name="platform_manifest" remote="th" revision="mm" />
