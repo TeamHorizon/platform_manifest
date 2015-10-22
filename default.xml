@@ -351,7 +351,7 @@
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="th" revision="mm" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="th" revision="mm" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
