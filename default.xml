@@ -69,7 +69,7 @@
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" />
-  <!--project path="external/connectivity" name="android_external_connectivity" remote="cm" revision="cm-13.0" /-->
+  <project path="external/connectivity" name="android_external_connectivity" remote="cm" revision="cm-13.0" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs" />
   <project path="external/crcalc" name="platform/external/crcalc" />
@@ -258,6 +258,7 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" />
   <project path="external/sonic" name="platform/external/sonic" />
   <project path="external/sonivox" name="platform/external/sonivox" />
+  <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" groups="pdk" remote="th" revision="mm" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <!--project path="external/spongycastle" name="android_external_spongycastle" groups="pdk" remote="cm" revision="cm-13.0" /-->
   <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
@@ -266,6 +267,7 @@
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
   <!--project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-13.0" / -->
+  <project path="external/stlport" name="android_external_stlport" groups="pdk" remote="th" revision="mm" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
@@ -389,6 +391,7 @@
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" remote="gh" groups="pdk" revision="cm-13.0-caf" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="gh" revision="cm-13.0" groups="qcom_wlan" />
   <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" remote="gh" groups="qcom_wlan" revision="cm-13.0-caf" />
+  <project path="hardware/sony/thermanager" name="android_hardware_sony_thermanager" groups="pdk" remote="th" revision="mm" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
