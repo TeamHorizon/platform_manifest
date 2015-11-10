@@ -98,7 +98,7 @@
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="th" revision="lp-mr1" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
-  <!--project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-13.0" /-->
+  <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-13.0" />
   <project path="external/fio" name="platform/external/fio" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" />
@@ -153,7 +153,7 @@
   <!-- project path="external/koush/AndroidAsync" name="AndroidAsync" remote="cm" revision="cm-12.0" />
   <project path="external/koush/ion" name="ion" remote="cm" revision="cm-13.0" />
   <project path="external/koush/Widgets" name="Widgets" remote="cm" revision="cm-12.0" /-->
-  <project path="external/libavc" name="platform/external/libavc" />
+  <project path="external/libavc" name="android_external_libavc" remote="th" revision="cm-13.0" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
@@ -172,7 +172,7 @@
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
-  <!--project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" revision="cm-13.0" /-->
+  <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" remote="cm" revision="cm-13.0" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
@@ -265,7 +265,7 @@
   <project path="external/square/javawriter" name="android_external_square_javawriter" remote="cm" revision="cm-13.0" /-->
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs" />
-  <!--project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-13.0" / -->
+  <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" remote="cm" revision="cm-13.0" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
