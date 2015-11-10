@@ -313,7 +313,7 @@
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
-  <!-- project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" groups="pdk-cw-fs" remote="cm" revision="cm-13.0" /-->
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" groups="pdk-cw-fs" remote="th" revision="mm" />
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs" remote="th" revision="mm" />
@@ -334,7 +334,7 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="th" revision="mm" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="th" revision="mm" />
-  <!-- project path="hardware/cm" name="android_hardware_cm" remote="th" revision="lollipop" / -->
+  <project path="hardware/cm" name="android_hardware_cm" remote="th" revision="mm" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
