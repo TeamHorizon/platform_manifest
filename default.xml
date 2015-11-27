@@ -43,10 +43,10 @@
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/androidplot" name="platform/external/androidplot" />
   <!-- project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-13.0" /-->
-  <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
-  <!--project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="cm" revision="cm-13.0" />
+  <project path="external/ant-glob" name="android_external_ant-glob" groups="pdk-cw-fs" remote="cm" revision="cm-13.0" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="cm" revision="cm-13.0" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="cm" revision="cm-13.0" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="cm" revision="cm-13.0" / -->
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="cm" revision="cm-13.0" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" />
