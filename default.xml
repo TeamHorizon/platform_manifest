@@ -39,7 +39,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="th" revision="mm" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
-  <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
+  <project path="external/android-clat" name="android_external_android-clat" groups="pdk-cw-fs" remote="cm" revision="cm-13.0" />
   <project path="external/android-mock" name="platform/external/android-mock" />
   <project path="external/androidplot" name="platform/external/androidplot" />
   <!-- project path="external/android-visualizer" name="android_external_android-visualizer" remote="cm" revision="cm-13.0" /-->
