@@ -119,7 +119,6 @@
   <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
-  <project path="external/heimdall" name="android_external_heimdall" remote="cm" revision="cm-13.0"/>
   <project path="external/htop" name="android_external_htop" remote="cm" revision="cm-13.0" />
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" />
   <project path="external/icu" name="platform/external/icu" groups="pdk" />
