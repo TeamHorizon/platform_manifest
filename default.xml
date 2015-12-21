@@ -83,7 +83,7 @@
   <project path="external/drm_gralloc" name="platform/external/drm_gralloc" />
   <project path="external/drm_hwcomposer" name="platform/external/drm_hwcomposer" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk-cw-fs,tradefed" />
   <!--project path="external/ebtables" name="android_external_ebtables" remote="cm" revision="cm-13.0" /-->
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" groups="pdk-cw-fs" />
@@ -96,14 +96,14 @@
   <project path="external/exfat" name="android_external_exfat" remote="cm" revision="cm-13.0" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs" />
-  <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="th" revision="lp-mr1" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/ffmpeg" name="android_external_ffmpeg" remote="cm" revision="cm-13.0" />
   <project path="external/fio" name="platform/external/fio" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/fonttools" name="platform/external/fonttools" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" groups="pdk-cw-fs" />
+  <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk-cw-fs" remote="cm" revision="cm-13.0" />
   <project path="external/fuse" name="android_external_fuse" remote="cm" revision="cm-13.0" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/glide" name="platform/external/glide" />
@@ -549,7 +549,7 @@
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" revision="cm-13.0" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="cm" revision="cm-13.0" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="mm" />
-  
+
   <!-- Manifest -->
   <project path="platform_manifest" name="platform_manifest" remote="th" revision="mm" />
 
