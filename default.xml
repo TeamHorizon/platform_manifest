@@ -59,7 +59,7 @@
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bson" name="android_external_bson" remote="cm" revision="cm-13.0" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-13.0" />
+  <project path="external/busybox" name="android_external_busybox" remote="th" revision="mm" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <!--project path="external/cardslib" name="android_external_cardslib" remote="cm" revision="cm-13.0" /-->
   <project path="external/cblas" name="platform/external/cblas" />
