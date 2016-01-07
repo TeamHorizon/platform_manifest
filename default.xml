@@ -451,7 +451,7 @@
   <project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
-  <!--+project path="packages/apps/XenonOTA" name="android_packages_apps_XenonOTA" remote="th" revision="lp-mr1" /-->
+  <project path="packages/apps/XenonOTA" name="android_packages_apps_XenonOTA" remote="th" revision="mm" >
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="th" revision="mm" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
