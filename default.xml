@@ -270,7 +270,7 @@
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="cm" revision="cm-13.0" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/toybox" name="android_external_toybox" remote="cm" revision="cm-13.0" />
@@ -545,11 +545,11 @@
   <!--project path="vendor/nxp" name="proprietary_vendor_nxp" remote="tm" revision="cm-12.1" /-->
   <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="tm" revision="cm-13.0" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="cm" revision="cm-13.0" />
-  <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" remote="th" revision="mm" />
+  <!--project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" remote="th" revision="mm" /-->
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" revision="cm-13.0" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="cm" revision="cm-13.0" />
   <project path="vendor/xenonhd" name="vendor_xenonhd" remote="th" revision="mm" />
-  
+
   <!-- Manifest -->
   <project path="platform_manifest" name="platform_manifest" remote="th" revision="mm" />
 
