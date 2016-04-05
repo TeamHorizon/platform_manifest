@@ -15,7 +15,7 @@
            fetch="https://github.com/TheMuppets/" />
 
 
-  <default revision="refs/tags/android-6.0.1_r22"
+  <default revision="refs/tags/android-6.0.1_r24"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
