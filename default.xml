@@ -3,6 +3,8 @@
 
   <remote  name="gh"
            fetch="https://github.com/" />
+  <remote  name="bb"
+           fetch="https://bitbucket.org/" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
   <remote  name="th"
