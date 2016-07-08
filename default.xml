@@ -15,7 +15,7 @@
            fetch="https://github.com/TheMuppets/" />
 
 
-  <default revision="refs/tags/android-6.0.1_r46"
+  <default revision="refs/tags/android-6.0.1_r54"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -318,9 +318,9 @@
   <project path="frameworks/webview" name="platform_frameworks_webview" remote="th" revision="mm" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="th" revision="mm" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="th" revision="mm" />
-  <project path="hardware/cm" name="android_hardware_cm" remote="th" revision="mm" />
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="cm" revision="cm-13.0" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="cm" revision="cm-13.0" />
+  <project path="hardware/cm" name="android_hardware_cm" remote="cm" revision="cm-13.0" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -352,7 +352,7 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-13.0" groups="qcom" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" remote="cm" groups="qcom" revision="cm-13.0-caf" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-13.0" groups="qcom" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="th" revision="cm-13.0" groups="qcom,qcom_display" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-13.0" groups="qcom,qcom_display" />
   <project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="cm" revision="cm-13.0-caf-8960" />
