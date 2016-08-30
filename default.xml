@@ -66,7 +66,7 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bson" name="android_external_bson" remote="cm" revision="cm-13.0" />
-  <project path="external/busybox" name="android_external_busybox" remote="th" revision="mm" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-13.0" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" />
@@ -122,7 +122,7 @@
   <project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
   <project path="external/gson" name="android_external_gson" remote="cm" revision="cm-13.0"/>
   <project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-  <project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,tradefed" />
+  <project path="external/guava" name="android_external_guava" groups="pdk-cw-fs,tradefed" remote="cm" revision="cm-13.0" />
   <project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,tradefed" />
   <project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/htop" name="android_external_htop" remote="cm" revision="cm-13.0" />
@@ -311,7 +311,6 @@
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" groups="pdk-cw-fs" remote="th" revision="mm" />
   <project path="frameworks/opt/inputconnectioncommon" name="platform/frameworks/opt/inputconnectioncommon" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
@@ -322,7 +321,7 @@
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="th" revision="mm" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/vcard" name="frameworks_opt_vcard" groups="pdk-cw-fs" remote="th" revision="mm" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
@@ -561,7 +560,6 @@
   
   <!-- Vendors -->
   <project path="vendor/broadcom" name="proprietary_vendor_broadcom" remote="tm" revision="cm-13.0" />
-  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="th" revision="lp-mr1" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="cm" revision="cm-13.0" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" revision="cm-13.0" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="cm" revision="cm-13.0" />
