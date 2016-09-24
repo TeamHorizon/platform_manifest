@@ -23,7 +23,7 @@
            sync-j="4" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
-  <project path="art" name="android_art" groups="pdk" />
+  <project path="art" name="android_art" groups="pdk" remote="th" revision="n-caf" />
   <project path="bionic" name="android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -289,7 +289,7 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" remote="aosp" />
-  <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" />
+  <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="th" revision="n-caf" />
   <project path="external/sl4a" name="platform/external/sl4a" remote="aosp" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
