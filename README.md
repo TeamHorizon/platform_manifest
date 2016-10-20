@@ -37,7 +37,7 @@ Initializing the XenonHD Source:
 
 For initializing repo use:
 
-    repo init -u https://github.com/TeamHorizon/platform_manifest.git -b n-caf
+    repo init -u https://github.com/TeamHorizon/platform_manifest.git -b n
 
 Syncing repo:
 
@@ -78,7 +78,7 @@ xenonhd.mk sample
     $(call inherit-product, device/<path>/device.mk) -- path to main device makefile
 
     # Inherit common product files.
-    $(call inherit-product, vendor/xenonhd/config/common.mk)
+    $(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
 
     # Enhanced NFC
     $(call inherit-product, vendor/xenonhd/config/nfc_enhanced.mk) -- optional
@@ -107,12 +107,12 @@ xenonhd.dependencies sample
         "remote": "th",
         "repository": "android_kernel_<name>",
         "target_path": "kernel/path",
-        "revision": "n-caf"
+        "revision": "n"
       },
       {
         "remote": "th",
         "repository": "proprietary_vendor_<name>",
         "target_path": "vendor/path",
-        "revision": "n-caf"
+        "revision": "n"
       }
     ]
