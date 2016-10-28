@@ -104,15 +104,18 @@ xenonhd.dependencies sample
 
     [
       {
-        "remote": "th",
-        "repository": "android_kernel_<name>",
+        "repository": "TeamHorizon/android_kernel_<name>",
         "target_path": "kernel/path",
-        "revision": "n"
+        "branch": "n"
       },
       {
-        "remote": "th",
-        "repository": "proprietary_vendor_<name>",
+        "repository": "TeamHorizon/proprietary_vendor_<name>",
         "target_path": "vendor/path",
-        "revision": "n"
+        "branch": "n"
+      },
+      {
+        "repository": "CyanogenMod/android_device_<name>",
+        "target_path": "device/path",
+        "branch": "cm-14.0"
       }
     ]
