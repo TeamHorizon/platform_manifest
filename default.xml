@@ -214,7 +214,7 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
-  <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
+  <project path="external/libselinux" name="android_external_libselinux" groups="pdk" remote="th" revision="n" />
   <project path="external/libtar" name="android_external_libtar" />
   <project path="external/libtruezip" name="android_external_libtruezip" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
