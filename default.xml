@@ -565,6 +565,7 @@
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="th" revision="n" />
   <project path="system/extras" name="android_system_extras" groups="pdk" />
+  <project path="system/extras/su" name="android_system_extras_su" />
   <project path="system/firewalld" name="platform/system/firewalld" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" />
