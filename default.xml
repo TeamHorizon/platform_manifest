@@ -78,6 +78,7 @@
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" remote="aosp" />
   <project path="external/brctl" name="android_external_brctl" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" remote="aosp" />
+  <project path="external/bson" name="android_external_bson" />
   <project path="external/bzip2" name="android_external_bzip2" groups="pdk" />
   <project path="external/c-ares" name="platform/external/c-ares" remote="aosp" />
   <project path="external/caliper" name="platform/external/caliper" remote="aosp" />
@@ -303,6 +304,7 @@
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
   <project path="external/srtp" name="platform/external/srtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/stagefright-plugins" name="android_external_stagefright-plugins" />
+  <project path="external/stlport" name="android_external_stlport" />
   <project path="external/strace" name="platform/external/strace" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
