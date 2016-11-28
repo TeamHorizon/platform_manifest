@@ -80,9 +80,6 @@ xenonhd.mk sample
     # Inherit common product files.
     $(call inherit-product, vendor/xenonhd/config/common_full_phone.mk)
 
-    # Enhanced NFC
-    $(call inherit-product, vendor/xenonhd/config/nfc_enhanced.mk) -- optional
-
     # Set those variables here to overwrite the inherited values.
     BOARD_VENDOR := 
     PRODUCT_BRAND := 
@@ -114,8 +111,8 @@ xenonhd.dependencies sample
         "branch": "n"
       },
       {
-        "repository": "CyanogenMod/android_device_<name>",
+        "repository": "CyanogenMod/android_device_<name>", -- if you need to use repos from another source
         "target_path": "device/path",
-        "branch": "cm-14.0"
+        "branch": "cm-14.0" -- you can also change the branch
       }
     ]
