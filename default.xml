@@ -575,7 +575,7 @@
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" />
   <project path="system/nativepower" name="platform/system/nativepower" remote="aosp" />
-  <project path="system/netd" name="android_system_netd" groups="pdk" remote="th" revision="n" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" remote="aosp" />
   <project path="system/qcom" name="android_system_qcom" groups="qcom" />
   <project path="system/security" name="android_system_security" groups="pdk" />
