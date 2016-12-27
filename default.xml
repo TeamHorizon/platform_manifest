@@ -6,13 +6,13 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.1_r6" />
 
-  <remote  name="cm"
-           fetch="https://github.com/CyanogenMod" />
+  <remote  name="laos"
+           fetch="https://github.com/LineageOS" />
 		   
   <remote  name="gh"
            fetch="https://github.com"
-           review="review.cyanogenmod.org" />
-  
+           review="review.lineageos.org" />
+ 
   <remote name="teamsubstratum"
            fetch="https://github.com/"
            review="review.projektsubstratum.com" />
@@ -21,7 +21,7 @@
            fetch="https://github.com/TeamHorizon" />
 
   <default revision="refs/heads/cm-14.1"
-           remote="cm"
+           remote="laos"
            sync-c="true"
            sync-f="true"
            sync-j="4" />
