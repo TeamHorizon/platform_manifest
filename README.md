@@ -37,7 +37,7 @@ Initializing the XenonHD Source:
 
 For initializing repo use:
 
-    repo init -u https://github.com/TeamHorizon/platform_manifest.git -b n
+    repo init -u https://github.com/TeamHorizon/platform_manifest.git -b n-oms
 
 Syncing repo:
 
@@ -122,7 +122,7 @@ xenonhd.dependencies sample
         "branch": "n"
       },
       {
-        "repository": "CyanogenMod/android_device_<name>", -- if you need to use repos from another source
+        "repository": "LineageOS/android_device_<name>", -- if you need to use repos from another source
         "target_path": "device/path",
         "branch": "cm-14.1" -- you can also change the branch
       }
