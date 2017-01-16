@@ -89,7 +89,8 @@ xenonhd.mk sample
     PRODUCT_MODEL := 
     TARGET_VENDOR := 
 
-    WITH_SUPERSU := true -- if you want to ship SuperSU apk
+    WITH_SU := true -- if you want to ship su
+    WITH_SUPERSU := true -- if you want to ship SuperSU apk (with su)
 
     # Use the latest approved GMS identifiers unless running a signed build
     ifneq ($(SIGN_BUILD),true)
