@@ -89,8 +89,10 @@ xenonhd.mk sample
     PRODUCT_MODEL := 
     TARGET_VENDOR := 
 
-    WITH_SU := true -- if you want to ship su
-    WITH_SUPERSU := true -- if you want to ship SuperSU apk (with su)
+    # Root options (root apps = substratum, adaway, kernel adiutor)
+    WITH_SUPERSU := true -- if you want to ship SuperSU (rooted rom, with su, supersu and root apps)
+    WITHOUT_SU := true -- if you don't want su and root apps (unrooted rom, without su and root apps)
+    # by default su and root apps are being compiled
 
     # Use the latest approved GMS identifiers unless running a signed build
     ifneq ($(SIGN_BUILD),true)
