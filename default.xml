@@ -27,8 +27,8 @@
            sync-j="4" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
-  <project path="art" name="android_art" groups="pdk" remote="th" revision="n" />
-  <project path="bionic" name="android_bionic" groups="pdk" remote="th" revision="n" />
+  <project path="art" name="android_art" groups="pdk" />
+  <project path="bionic" name="android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -216,7 +216,7 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
-  <project path="external/libselinux" name="android_external_libselinux" groups="pdk" remote="th" revision="n" />
+  <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
   <project path="external/libtar" name="android_external_libtar" />
   <project path="external/libtruezip" name="android_external_libtruezip" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
@@ -293,7 +293,7 @@
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/shflags" name="platform/external/shflags" groups="pdk" remote="aosp" />
-  <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="th" revision="n" />
+  <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sl4a" name="platform/external/sl4a" remote="aosp" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -460,7 +460,7 @@
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="th" revision="n-oms" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" groups="pdk-fs" remote="th" revision="n-oms" />
-  <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="pdk-fs" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="th" revision="n-oms" />
   <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" groups="pdk-fs" />
@@ -562,7 +562,7 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" remote="aosp" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="th" revision="n" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="th" revision="n-oms" />
   <project path="system/extras" name="android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="android_system_extras_su" />
   <project path="system/firewalld" name="platform/system/firewalld" remote="aosp" />
