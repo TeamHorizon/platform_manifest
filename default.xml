@@ -14,7 +14,7 @@
            review="review.lineageos.org" />
  
   <remote  name="ts"
-           fetch="https://github.com/TeamSubstratum"
+           fetch="https://github.com/substratum"
            review="review.projektsubstratum.com" />
 		   
   <remote  name="th"
