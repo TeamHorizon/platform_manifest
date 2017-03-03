@@ -600,7 +600,7 @@
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="android_packages_apps_WundergroundWeatherProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="android_packages_apps_YahooWeatherProvider" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" />
-  <project path="vendor/qcom/binaries" name="TheMuppets/proprietary_vendor_qcom_binaries" remote="gh" revision="cm-14.1" />	
+  <project path="vendor/qcom/binaries" name="proprietary_vendor_qcom_binaries" remote="th" revision="n" />
   <project path="vendor/qcom/opensource/bluetooth" name="android_vendor_qcom_opensource_bluetooth" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" />  
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" />
