@@ -50,9 +50,9 @@
   <project path="build" name="android_build" groups="pdk,tradefed" remote="th" revision="n" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
-  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" />
-  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="th" revision="n" />
+  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="th" revision="n" />
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="th" revision="n" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -519,6 +519,7 @@
   <project path="packages/services/WeatherService" name="android_packages_services_WeatherService" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" groups="pdk-fs" />
 
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="th" revision="n" />
   <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/host/darwin-x86" name="platform/prebuilts/clang/host/darwin-x86" groups="pdk,darwin" clone-depth="1" remote="aosp" />
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" remote="aosp" />
