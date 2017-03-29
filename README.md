@@ -89,10 +89,10 @@ xenonhd.mk sample
     PRODUCT_MODEL := 
     TARGET_VENDOR := 
 
-    # Root options (root apps = substratum, adaway, kernel adiutor)
-    WITH_SUPERSU := true -- if you want to ship SuperSU (rooted rom, with su, supersu and root apps)
-    WITHOUT_SU := true -- if you don't want su and root apps (unrooted rom, without su and root apps)
-    # by default su and root apps are being compiled
+    # Root options
+    ROOT_METHOD=magisk -- to compile builds with Magisk root
+    ROOT_METHOD=su -- to compile builds with default su provided by LineageOS
+    # Without any of these flags the builds will be unrooted and won't include Adaway & KernelAdiutor
 
     # Use the latest approved GMS identifiers unless running a signed build
     ifneq ($(SIGN_BUILD),true)
