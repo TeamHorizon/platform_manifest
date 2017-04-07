@@ -94,6 +94,12 @@ xenonhd.mk sample
     ROOT_METHOD=su -- to compile builds with default su provided by LineageOS
     # Without any of these flags the builds will be unrooted and won't include Adaway & KernelAdiutor
 
+    # 3rd party apps - choose which you want to build
+    PRODUCT_PACKAGES += \
+        Adaway \
+        KernelAdiutor \
+        MiXplorer
+
     # Use the latest approved GMS identifiers unless running a signed build
     ifneq ($(SIGN_BUILD),true)
     PRODUCT_BUILD_PROP_OVERRIDES += \
