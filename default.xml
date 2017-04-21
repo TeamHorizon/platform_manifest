@@ -9,7 +9,7 @@
   <remote  name="laos"
            fetch="https://github.com/LineageOS" />
 		   
-  <remote  name="gh"
+  <remote  name="github"
            fetch="https://github.com"
            review="review.lineageos.org" />
  
@@ -480,7 +480,7 @@
   <project path="packages/apps/ThemeInterfacer" name="interfacer" remote="ts" revision="n-rootless" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
-  <project path="packages/apps/OmniClock" name="omnirom/android_packages_apps_OmniClock" remote="gh" revision="android-7.1" />
+  <project path="packages/apps/OmniClock" name="omnirom/android_packages_apps_OmniClock" remote="github" revision="android-7.1" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="th" revision="n" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="th" revision="n" />
