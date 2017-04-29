@@ -12,7 +12,11 @@
   <remote  name="gh"
            fetch="https://github.com"
            review="review.lineageos.org" />
- 
+	
+   <remote  name="github"
+           fetch="https://github.com" />
+
+
   <remote  name="ts"
            fetch="https://github.com/substratum"
            review="review.projektsubstratum.com" />
