@@ -96,7 +96,7 @@ xenonhd.mk sample
 
     # 3rd party apps - choose which you want to build
     PRODUCT_PACKAGES += \
-        Adaway \
+        AdAway \
         KernelAdiutor \
         MiXplorer
 
