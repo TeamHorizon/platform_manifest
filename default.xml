@@ -62,7 +62,6 @@
 
   <project path="external/aac" name="android_external_aac" groups="pdk" />
   <project path="external/adt-infra" name="platform/external/adt-infra" groups="adt-infra,notdefault,pdk-fs" remote="aosp" />
-  <project path="external/ahbottomnavigation" name="android_external_ahbottomnavigation" />
   <project path="external/android-clat" name="android_external_android-clat" groups="pdk" />
   <project path="external/android-mock" name="platform/external/android-mock" groups="pdk" remote="aosp" />
   <project path="external/androidplot" name="platform/external/androidplot" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
