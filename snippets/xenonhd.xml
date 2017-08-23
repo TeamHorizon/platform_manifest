@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- XenonHD Projects -->
+
+  <project path="manifest" name="TeamHorizon/platform_manifest" revision="o" />
+  <project path="packages/apps/XenonApps" name="TeamHorizon/android_packages_apps_XenonApps" revision="o" />
+  <project path="packages/apps/XenonOTA" name="TeamHorizon/android_packages_apps_XenonOTA" revision="o" />
+  <project path="vendor/xenonhd" name="TeamHorizon/vendor_xenonhd" revision="o" />
+
+</manifest>

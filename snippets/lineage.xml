@@ -2,7 +2,6 @@
 <manifest>
 
   <!-- LineageOS additions -->
-
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
   <!--<project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />
@@ -58,7 +57,6 @@
   <project path="packages/themes/HexoLibre" name="LineageOS/android_packages_themes_HexoLibre" groups="themes" />
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
-  <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
   <!--<project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
   <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
