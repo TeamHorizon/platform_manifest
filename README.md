@@ -121,18 +121,15 @@ xenonhd.dependencies sample
 
     [
       {
-        "repository": "TeamHorizon/android_kernel_<name>",
-        "target_path": "kernel/path",
-        "branch": "o"
+        "repository": "android_kernel_<name>",
+        "target_path": "kernel/path"
       },
       {
-        "repository": "TeamHorizon/proprietary_vendor_<name>",
-        "target_path": "vendor/path",
-        "branch": "o"
+        "repository": "proprietary_vendor_<name>",
+        "target_path": "vendor/path"
       },
       {
-        "repository": "LineageOS/android_device_<name>", -- if you need to use repos from another source
-        "target_path": "device/path",
-        "branch": "lineage-15.0" -- you can also change the branch
+        "repository": "android_device_<name>-common"
+        "target_path": "device/path"
       }
     ]
