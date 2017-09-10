@@ -16,7 +16,9 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="frameworks/base" name="TeamHorizon/platform_frameworks_base" revision="o" groups="pdk-cw-fs,pdk-fs" />
   <project path="manifest" name="TeamHorizon/platform_manifest" revision="o" />
+  <project path="packages/apps/Settings" name="TeamHorizon/android_packages_apps_Settings" revision="o" groups="pdk-fs" />
   <project path="packages/apps/XenonApps" name="TeamHorizon/android_packages_apps_XenonApps" revision="o" />
   <project path="packages/apps/XenonOTA" name="TeamHorizon/android_packages_apps_XenonOTA" revision="o" />
   <project path="vendor/xenonhd" name="TeamHorizon/vendor_xenonhd" revision="o" />
