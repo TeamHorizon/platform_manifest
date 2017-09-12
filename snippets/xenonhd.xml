@@ -3,6 +3,7 @@
 
   <!-- XenonHD Projects -->
 
+  <project path="bionic" name="TeamHorizon/android_bionic" revision="o" groups="pdk" />
   <project path="build/make" name="TeamHorizon/android_build" revision="o" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
