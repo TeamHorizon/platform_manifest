@@ -220,7 +220,6 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" remote="aosp" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" remote="aosp" />
-  <project path="external/libphonenumbergoogle" name="android_external_libphonenumbergoogle" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
   <project path="external/libtar" name="android_external_libtar" />
