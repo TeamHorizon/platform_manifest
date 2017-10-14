@@ -94,27 +94,12 @@ xenonhd.mk sample
     ROOT_METHOD=su -- to compile builds with default su provided by LineageOS
     # Without any of these flags the builds will be unrooted and won't include Adaway & KernelAdiutor
 
-    # 3rd party apps - choose which you want to build
-    PRODUCT_PACKAGES += \
-        AdAway \
-        KernelAdiutor \
-        MiXplorer
-
     # Use the latest approved GMS identifiers unless running a signed build
     ifneq ($(SIGN_BUILD),true)
     PRODUCT_BUILD_PROP_OVERRIDES += \
         BUILD_FINGERPRINT=specific for your device \
         PRIVATE_BUILD_DESC="specific for your device"
     endif
-
-Also you need to specify which camera app you want to use with: 
-
-    # Camera
-    PRODUCT_PACKAGES += \
-      Camera2 \
-      Snap
-      
-in one of your device's makefiles. Using the example above will give you both cameras installed.
 
 xenonhd.dependencies sample
 ----------
