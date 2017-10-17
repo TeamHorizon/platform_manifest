@@ -52,6 +52,7 @@
   <!--<project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />-->
   <!--<project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />-->
   <!--<project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />-->
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
   <!--<project path="packages/services/LineageAudioService" name="LineageOS/android_packages_services_LineageAudioService" />-->
   <!--<project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" />-->
   <!--<project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />-->
