@@ -89,11 +89,6 @@ xenonhd.mk sample
     PRODUCT_MODEL := 
     TARGET_VENDOR := 
 
-    # Root options
-    ROOT_METHOD=magisk -- to compile builds with Magisk root
-    ROOT_METHOD=su -- to compile builds with default su provided by LineageOS
-    # Without any of these flags the builds will be unrooted and won't include Adaway & KernelAdiutor
-
     # Use the latest approved GMS identifiers unless running a signed build
     ifneq ($(SIGN_BUILD),true)
     PRODUCT_BUILD_PROP_OVERRIDES += \
