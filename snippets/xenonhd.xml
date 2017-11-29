@@ -20,6 +20,7 @@
   <project path="frameworks/base" name="TeamHorizon/frameworks_base" revision="o" groups="pdk-cw-fs,pdk-fs" />
   <project path="lineage-sdk" name="TeamHorizon/android_lineage-sdk" revision="o" />
   <project path="manifest" name="TeamHorizon/platform_manifest" revision="o" />
+  <project path="packages/apps/Bluetooth" name="TeamHorizon/android_packages_apps_Bluetooth" revision="o" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/BrowserInstaller" name="TeamHorizon/android_packages_apps_BrowserInstaller" revision="o" />
   <project path="packages/apps/Dialer" name="TeamHorizon/android_packages_apps_Dialer" revision="o" groups="pdk-fs" />
   <project path="packages/apps/Gallery2" name="TeamHorizon/android_packages_apps_Gallery2" revision="o" groups="pdk-fs" />
