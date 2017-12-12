@@ -17,6 +17,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="frameworks/av" name="TeamHorizon/frameworks_av" revision="o" groups="pdk" />
   <project path="frameworks/base" name="TeamHorizon/frameworks_base" revision="o" groups="pdk-cw-fs,pdk-fs" />
   <project path="lineage-sdk" name="TeamHorizon/android_lineage-sdk" revision="o" />
   <project path="manifest" name="TeamHorizon/platform_manifest" revision="o" />
