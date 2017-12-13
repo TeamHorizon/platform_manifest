@@ -89,13 +89,6 @@ xenonhd.mk sample
     PRODUCT_MODEL := 
     TARGET_VENDOR := 
 
-    # Use the latest approved GMS identifiers unless running a signed build
-    ifneq ($(SIGN_BUILD),true)
-    PRODUCT_BUILD_PROP_OVERRIDES += \
-        BUILD_FINGERPRINT=specific for your device \
-        PRIVATE_BUILD_DESC="specific for your device"
-    endif
-
 xenonhd.dependencies sample
 ----------
 
