@@ -186,7 +186,6 @@
   <project path="external/jsr330" name="platform/external/jsr330" groups="pdk" remote="aosp" />
   <project path="external/junit" name="platform/external/junit" groups="pdk" remote="aosp" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk" remote="aosp" />
-  <project path="external/koush/ion" name="ion" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk" remote="aosp" />
   <project path="external/libavc" name="android_external_libavc" groups="pdk" />
   <project path="external/libbrillo" name="platform/external/libbrillo" groups="pdk" remote="aosp" />
@@ -221,7 +220,6 @@
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" remote="aosp" />
   <project path="external/libselinux" name="android_external_libselinux" groups="pdk" />
   <project path="external/libtar" name="android_external_libtar" />
-  <project path="external/libtruezip" name="android_external_libtruezip" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" remote="aosp" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" remote="aosp" />
@@ -240,7 +238,6 @@
   <project path="external/ltrace" name="platform/external/ltrace" groups="pdk" remote="aosp" />
   <project path="external/lz4" name="platform/external/lz4" groups="pdk" remote="aosp" />
   <project path="external/lzma" name="android_external_lzma" groups="pdk" />
-  <project path="external/lzo" name="android_external_lzo" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" groups="pdk" remote="aosp" />
   <project path="external/markdown" name="platform/external/markdown" groups="pdk" remote="aosp" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" remote="aosp" />
