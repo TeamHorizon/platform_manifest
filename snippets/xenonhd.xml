@@ -31,7 +31,6 @@
   <project path="packages/apps/XenonApps" name="TeamHorizon/android_packages_apps_XenonApps" revision="o" />
   <project path="packages/apps/XenonOTA" name="TeamHorizon/android_packages_apps_XenonOTA" revision="o" />
   <project path="packages/apps/XenonSettings" name="TeamHorizon/android_packages_apps_XenonSettings" revision="o-staging" />
-  <project path="packages/providers/DownloadProvider" name="TeamHorizon/android_packages_providers_DownloadProvider" revision="o-staging" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="TeamHorizon/android_packages_services_Telephony" revision="o-staging" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="TeamHorizon/android_system_bt" revision="o-staging" groups="pdk" />
   <project path="system/core" name="TeamHorizon/android_system_core" revision="o-staging" groups="pdk" />
