@@ -28,7 +28,6 @@
   <project path="packages/apps/XenonOTA" name="TeamHorizon/android_packages_apps_XenonOTA" revision="o" />
   <project path="packages/apps/XenonSettings" name="TeamHorizon/android_packages_apps_XenonSettings" revision="o-staging" />
   <project path="system/core" name="TeamHorizon/android_system_core" revision="o-staging" groups="pdk" />
-  <project path="system/sepolicy" name="TeamHorizon/android_system_sepolicy" revision="o-staging" groups="pdk" />
   <project path="system/qcom" name="TeamHorizon/android_system_qcom" revision="o-staging" groups="qcom" />
   <project path="vendor/xenonhd" name="TeamHorizon/vendor_xenonhd" revision="o-staging" />
 
