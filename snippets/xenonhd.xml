@@ -3,8 +3,8 @@
 
   <!-- XenonHD Projects -->
 
-  <project path="bionic" name="TeamHorizon/android_bionic" revision="o-staging" groups="pdk" />
-  <project path="build/make" name="TeamHorizon/android_build" revision="o-staging" groups="pdk" >
+  <project path="bionic" name="TeamHorizon/android_bionic" revision="o" groups="pdk" />
+  <project path="build/make" name="TeamHorizon/android_build" revision="o" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -13,23 +13,23 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="TeamHorizon/android_build_soong" revision="o-staging" groups="pdk,tradefed" >
+  <project path="build/soong" name="TeamHorizon/android_build_soong" revision="o" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="frameworks/av" name="TeamHorizon/frameworks_av" revision="o-staging" groups="pdk" />
-  <project path="frameworks/base" name="TeamHorizon/frameworks_base" revision="o-staging" groups="pdk-cw-fs,pdk-fs" />
-  <project path="lineage-sdk" name="TeamHorizon/android_lineage-sdk" revision="o-staging" />
-  <project path="manifest" name="TeamHorizon/platform_manifest" revision="o-staging" />
+  <project path="frameworks/av" name="TeamHorizon/frameworks_av" revision="o" groups="pdk" />
+  <project path="frameworks/base" name="TeamHorizon/frameworks_base" revision="o" groups="pdk-cw-fs,pdk-fs" />
+  <project path="lineage-sdk" name="TeamHorizon/android_lineage-sdk" revision="o" />
+  <project path="manifest" name="TeamHorizon/platform_manifest" revision="o" />
   <project path="packages/apps/BrowserInstaller" name="TeamHorizon/android_packages_apps_BrowserInstaller" revision="o" />
-  <project path="packages/apps/Dialer" name="TeamHorizon/android_packages_apps_Dialer" revision="o-staging" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="TeamHorizon/android_packages_apps_Settings" revision="o-staging" groups="pdk-fs" />
+  <project path="packages/apps/Dialer" name="TeamHorizon/android_packages_apps_Dialer" revision="o" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="TeamHorizon/android_packages_apps_Settings" revision="o" groups="pdk-fs" />
   <project path="packages/apps/XenonApps" name="TeamHorizon/android_packages_apps_XenonApps" revision="o" />
   <project path="packages/apps/XenonOTA" name="TeamHorizon/android_packages_apps_XenonOTA" revision="o" />
-  <project path="packages/apps/XenonSettings" name="TeamHorizon/android_packages_apps_XenonSettings" revision="o-staging" />
-  <project path="packages/services/Telephony" name="TeamHorizon/android_packages_services_Telephony" revision="o-staging" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/core" name="TeamHorizon/android_system_core" revision="o-staging" groups="pdk" />
-  <project path="system/qcom" name="TeamHorizon/android_system_qcom" revision="o-staging" groups="qcom" />
-  <project path="vendor/xenonhd" name="TeamHorizon/vendor_xenonhd" revision="o-staging" />
+  <project path="packages/apps/XenonSettings" name="TeamHorizon/android_packages_apps_XenonSettings" revision="o" />
+  <project path="packages/services/Telephony" name="TeamHorizon/android_packages_services_Telephony" revision="o" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/core" name="TeamHorizon/android_system_core" revision="o" groups="pdk" />
+  <project path="system/qcom" name="TeamHorizon/android_system_qcom" revision="o" groups="qcom" />
+  <project path="vendor/xenonhd" name="TeamHorizon/vendor_xenonhd" revision="o" />
 
 </manifest>
