@@ -25,7 +25,6 @@
   <project path="packages/apps/Dialer" name="TeamHorizon/android_packages_apps_Dialer" revision="o" groups="pdk-fs" />
   <project path="packages/apps/Settings" name="TeamHorizon/android_packages_apps_Settings" revision="o" groups="pdk-fs" />
   <project path="packages/apps/SetupWizard" name="TeamHorizon/android_packages_apps_SetupWizard" revision="o" />
-  <project path="packages/apps/Snap" name="TeamHorizon/android_packages_apps_Snap" revision="o" />
   <project path="packages/apps/XenonApps" name="TeamHorizon/android_packages_apps_XenonApps" revision="o" />
   <project path="packages/apps/XenonOTA" name="TeamHorizon/android_packages_apps_XenonOTA" revision="o" />
   <project path="packages/apps/XenonSettings" name="TeamHorizon/android_packages_apps_XenonSettings" revision="o" />
