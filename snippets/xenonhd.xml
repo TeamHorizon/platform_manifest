@@ -19,6 +19,7 @@
   </project>
   <project path="frameworks/av" name="TeamHorizon/frameworks_av" revision="o" groups="pdk" />
   <project path="frameworks/base" name="TeamHorizon/frameworks_base" revision="o" groups="pdk-cw-fs,pdk-fs" />
+  <project path="hardware/interfaces" name="TeamHorizon/android_hardware_interfaces" revision="o" groups="pdk" />
   <project path="lineage-sdk" name="TeamHorizon/android_lineage-sdk" revision="o" />
   <project path="manifest" name="TeamHorizon/platform_manifest" revision="o" />
   <project path="packages/apps/BrowserInstaller" name="TeamHorizon/android_packages_apps_BrowserInstaller" revision="o" />
