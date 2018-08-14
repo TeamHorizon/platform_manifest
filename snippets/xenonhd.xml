@@ -3,8 +3,8 @@
 
   <!-- XenonHD Projects -->
 
-  <project path="bionic" name="TeamHorizon/android_bionic" revision="o" groups="pdk" />
-  <project path="build/make" name="TeamHorizon/android_build" revision="o" groups="pdk" >
+  <project path="bionic" name="TeamHorizon/android_bionic" revision="p" groups="pdk" />
+  <project path="build/make" name="TeamHorizon/android_build" revision="p" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -13,30 +13,30 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="TeamHorizon/android_build_soong" revision="o" groups="pdk,tradefed" >
+  <project path="build/soong" name="TeamHorizon/android_build_soong" revision="p" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="frameworks/av" name="TeamHorizon/frameworks_av" revision="o" groups="pdk" />
-  <project path="frameworks/base" name="TeamHorizon/frameworks_base" revision="o" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="TeamHorizon/frameworks_native" revision="o" groups="pdk" />
-  <project path="hardware/interfaces" name="TeamHorizon/android_hardware_interfaces" revision="o" groups="pdk" />
-  <project path="lineage-sdk" name="TeamHorizon/android_lineage-sdk" revision="o" />
-  <project path="manifest" name="TeamHorizon/platform_manifest" revision="o" />
-  <project path="packages/apps/BrowserInstaller" name="TeamHorizon/android_packages_apps_BrowserInstaller" revision="o" />
-  <project path="packages/apps/Dialer" name="TeamHorizon/android_packages_apps_Dialer" revision="o" groups="pdk-fs" />
-  <project path="packages/apps/LineageParts" name="TeamHorizon/android_packages_apps_LineageParts" revision="o" />
-  <project path="packages/apps/Settings" name="TeamHorizon/android_packages_apps_Settings" revision="o" groups="pdk-fs" />
-  <project path="packages/apps/SetupWizard" name="TeamHorizon/android_packages_apps_SetupWizard" revision="o" />
-  <project path="packages/apps/XenonApps" name="TeamHorizon/android_packages_apps_XenonApps" revision="o" />
-  <project path="packages/apps/XenonOTA" name="TeamHorizon/android_packages_apps_XenonOTA" revision="o" />
-  <project path="packages/apps/XenonSettings" name="TeamHorizon/android_packages_apps_XenonSettings" revision="o" />
-  <project path="packages/overlays/Lineage" name="TeamHorizon/android_packages_overlays_Lineage" revision="o" />
-  <project path="packages/services/Telephony" name="TeamHorizon/android_packages_services_Telephony" revision="o" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/core" name="TeamHorizon/android_system_core" revision="o" groups="pdk" />
-  <project path="system/qcom" name="TeamHorizon/android_system_qcom" revision="o" groups="qcom" />
-  <project path="system/sepolicy" name="TeamHorizon/android_system_sepolicy" revision="o" groups="pdk" />
-  <project path="vendor/xenonhd" name="TeamHorizon/vendor_xenonhd" revision="o" />
+  <project path="frameworks/av" name="TeamHorizon/frameworks_av" revision="p" groups="pdk" />
+  <project path="frameworks/base" name="TeamHorizon/frameworks_base" revision="p" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="TeamHorizon/frameworks_native" revision="p" groups="pdk" />
+  <project path="hardware/interfaces" name="TeamHorizon/android_hardware_interfaces" revision="p" groups="pdk" />
+  <project path="lineage-sdk" name="TeamHorizon/android_lineage-sdk" revision="p" />
+  <project path="manifest" name="TeamHorizon/platform_manifest" revision="p" />
+  <project path="packages/apps/BrowserInstaller" name="TeamHorizon/android_packages_apps_BrowserInstaller" revision="p" />
+  <project path="packages/apps/Dialer" name="TeamHorizon/android_packages_apps_Dialer" revision="p" groups="pdk-fs" />
+  <project path="packages/apps/LineageParts" name="TeamHorizon/android_packages_apps_LineageParts" revision="p" />
+  <project path="packages/apps/Settings" name="TeamHorizon/android_packages_apps_Settings" revision="p" groups="pdk-fs" />
+  <project path="packages/apps/SetupWizard" name="TeamHorizon/android_packages_apps_SetupWizard" revision="p" />
+  <project path="packages/apps/XenonApps" name="TeamHorizon/android_packages_apps_XenonApps" revision="p" />
+  <project path="packages/apps/XenonOTA" name="TeamHorizon/android_packages_apps_XenonOTA" revision="p" />
+  <project path="packages/apps/XenonSettings" name="TeamHorizon/android_packages_apps_XenonSettings" revision="p" />
+  <project path="packages/overlays/Lineage" name="TeamHorizon/android_packages_overlays_Lineage" revision="p" />
+  <project path="packages/services/Telephony" name="TeamHorizon/android_packages_services_Telephony" revision="p" groups="pdk-cw-fs,pdk-fs" />
+  <project path="system/core" name="TeamHorizon/android_system_core" revision="p" groups="pdk" />
+  <project path="system/qcom" name="TeamHorizon/android_system_qcom" revision="p" groups="qcom" />
+  <project path="system/sepolicy" name="TeamHorizon/android_system_sepolicy" revision="p" groups="pdk" />
+  <project path="vendor/xenonhd" name="TeamHorizon/vendor_xenonhd" revision="p" />
 
   <!-- Remove projects -->
   <remove-project name="device/common" />
