@@ -14,6 +14,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/soong" name="TeamHorizon/android_build_soong" revision="p" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 <!--  <project path="frameworks/av" name="TeamHorizon/frameworks_av" revision="p" groups="pdk" /> -->
