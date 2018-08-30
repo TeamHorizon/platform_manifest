@@ -17,7 +17,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-<!--  <project path="frameworks/av" name="TeamHorizon/frameworks_av" revision="p" groups="pdk" /> -->
+  <project path="frameworks/av" name="TeamHorizon/frameworks_av" revision="p" groups="pdk" />
   <project path="frameworks/base" name="TeamHorizon/frameworks_base" revision="p" groups="pdk-cw-fs,pdk-fs" />
 <!--  <project path="frameworks/native" name="TeamHorizon/frameworks_native" revision="p" groups="pdk" /> -->
 <!--  <project path="hardware/interfaces" name="TeamHorizon/android_hardware_interfaces" revision="p" groups="pdk" /> -->
