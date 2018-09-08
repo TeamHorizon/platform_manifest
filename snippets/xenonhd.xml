@@ -21,7 +21,7 @@
   <project path="frameworks/base" name="TeamHorizon/frameworks_base" revision="p" groups="pdk-cw-fs,pdk-fs" />
 <!--  <project path="frameworks/native" name="TeamHorizon/frameworks_native" revision="p" groups="pdk" /> -->
 <!--  <project path="hardware/interfaces" name="TeamHorizon/android_hardware_interfaces" revision="p" groups="pdk" /> -->
-<!--  <project path="lineage-sdk" name="TeamHorizon/android_lineage-sdk" revision="p" /> -->
+  <project path="lineage-sdk" name="TeamHorizon/android_lineage-sdk" revision="p" />
   <project path="manifest" name="TeamHorizon/platform_manifest" revision="p" />
   <project path="packages/apps/BrowserInstaller" name="TeamHorizon/android_packages_apps_BrowserInstaller" revision="p" />
 <!--  <project path="packages/apps/Dialer" name="TeamHorizon/android_packages_apps_Dialer" revision="p" groups="pdk-fs" /> -->
