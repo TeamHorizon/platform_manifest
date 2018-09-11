@@ -19,7 +19,7 @@
   </project>
   <project path="frameworks/av" name="TeamHorizon/frameworks_av" revision="p" groups="pdk" />
   <project path="frameworks/base" name="TeamHorizon/frameworks_base" revision="p" groups="pdk-cw-fs,pdk-fs" />
-<!--  <project path="frameworks/native" name="TeamHorizon/frameworks_native" revision="p" groups="pdk" /> -->
+  <project path="frameworks/native" name="TeamHorizon/frameworks_native" revision="p" groups="pdk" />
 <!--  <project path="hardware/interfaces" name="TeamHorizon/android_hardware_interfaces" revision="p" groups="pdk" /> -->
   <project path="lineage-sdk" name="TeamHorizon/android_lineage-sdk" revision="p" />
   <project path="manifest" name="TeamHorizon/platform_manifest" revision="p" />
