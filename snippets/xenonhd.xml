@@ -28,7 +28,7 @@
 <!--  <project path="packages/apps/LineageParts" name="TeamHorizon/android_packages_apps_LineageParts" revision="p" /> -->
   <project path="packages/apps/Settings" name="TeamHorizon/android_packages_apps_Settings" revision="p" groups="pdk-fs" />
   <project path="packages/apps/SetupWizard" name="TeamHorizon/android_packages_apps_SetupWizard" revision="p" />
-  <project path="packages/apps/XenonApps" name="TeamHorizon/android_packages_apps_XenonApps" revision="p" />
+<!--  <project path="packages/apps/XenonApps" name="TeamHorizon/android_packages_apps_XenonApps" revision="p" /> -->
   <project path="packages/apps/XenonOTA" name="TeamHorizon/android_packages_apps_XenonOTA" revision="p" />
   <project path="packages/apps/XenonSettings" name="TeamHorizon/android_packages_apps_XenonSettings" revision="p" />
 <!--  <project path="packages/overlays/Lineage" name="TeamHorizon/android_packages_overlays_Lineage" revision="p" /> -->
