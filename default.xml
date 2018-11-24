@@ -3,7 +3,7 @@
 
   <remote  name="github"
            fetch=".."
-           review="review.lineageos.org" />
+           review="gerrit.xenonhd.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
