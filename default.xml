@@ -581,7 +581,7 @@
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="th" revision="n" />
   <project path="system/tools/aidl" name="android_system_tools_aidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
-  <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" remote="aosp" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" />
   <project path="system/vold" name="android_system_vold" groups="pdk" />
   <project path="system/weaved" name="platform/system/weaved" remote="aosp" />
   <project path="system/webservd" name="platform/system/webservd" remote="aosp" />
