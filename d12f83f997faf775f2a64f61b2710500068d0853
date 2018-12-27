@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e99b1caa_3ed94d17",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-12-27T17:03:10Z",
+      "side": 1,
+      "message": "it should be placed in line 43",
+      "revId": "d12f83f997faf775f2a64f61b2710500068d0853",
+      "serverId": "ac0ff7d9-90ae-47bb-8b97-aa2722e8bfe8",
+      "unresolved": true
+    }
+  ]
+}
