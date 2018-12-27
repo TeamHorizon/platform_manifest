@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7b7a7619_2a5c3098",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-12-27T17:05:46Z",
+      "side": 1,
+      "message": "no xD also I said 43 not 42",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 2
+      },
+      "revId": "6106eb104ed5b5a4c91f890bca338b19a5547947",
+      "serverId": "ac0ff7d9-90ae-47bb-8b97-aa2722e8bfe8",
+      "unresolved": true
+    }
+  ]
+}
