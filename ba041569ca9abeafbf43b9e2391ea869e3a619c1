@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a41bf63d_d7e6633d",
+        "filename": "snippets/lineage.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2018-12-27T17:09:16Z",
+      "side": 1,
+      "message": "remove whitespace",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 2
+      },
+      "revId": "ba041569ca9abeafbf43b9e2391ea869e3a619c1",
+      "serverId": "ac0ff7d9-90ae-47bb-8b97-aa2722e8bfe8",
+      "unresolved": true
+    }
+  ]
+}
