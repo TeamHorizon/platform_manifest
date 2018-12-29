@@ -38,6 +38,7 @@
   <project path="system/core" name="TeamHorizon/android_system_core" revision="p" groups="pdk" />
 <!--  <project path="system/qcom" name="TeamHorizon/android_system_qcom" revision="p" groups="qcom" /> -->
   <project path="system/sepolicy" name="TeamHorizon/android_system_sepolicy" revision="p" groups="pdk" />
+  <project path="system/vold" name="TeamHorizon/android_system_vold" revision="p" groups="pdk" />
   <project path="vendor/xenonhd" name="TeamHorizon/vendor_xenonhd" revision="p" />
 
   <!-- Remove projects -->
