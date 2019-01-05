@@ -39,6 +39,7 @@
 <!--  <project path="system/qcom" name="TeamHorizon/android_system_qcom" revision="p" groups="qcom" /> -->
   <project path="system/sepolicy" name="TeamHorizon/android_system_sepolicy" revision="p" groups="pdk" />
   <project path="system/vold" name="TeamHorizon/android_system_vold" revision="p" groups="pdk" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="TeamHorizon/android_vendor_qcom_opensource_cryptfs_hw" revision="p" />
   <project path="vendor/xenonhd" name="TeamHorizon/vendor_xenonhd" revision="p" />
 
   <!-- Remove projects -->
