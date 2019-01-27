@@ -34,6 +34,7 @@
   <project path="packages/apps/XenonOTA" name="TeamHorizon/android_packages_apps_XenonOTA" revision="p" />
   <project path="packages/apps/XenonSettings" name="TeamHorizon/android_packages_apps_XenonSettings" revision="p" />
   <project path="packages/overlays/XenonHD" name="TeamHorizon/android_packages_overlays_XenonHD" revision="p" />
+  <project path="packages/providers/DownloadProvider" name="TeamHorizon/android_packages_providers_DownloadProvider" revision="p" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/services/Telephony" name="TeamHorizon/android_packages_services_Telephony" revision="p" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/core" name="TeamHorizon/android_system_core" revision="p" groups="pdk" />
 <!--  <project path="system/qcom" name="TeamHorizon/android_system_qcom" revision="p" groups="qcom" /> -->
