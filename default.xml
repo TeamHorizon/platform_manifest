@@ -202,7 +202,7 @@
   <project path="external/libexif" name="platform/external/libexif" groups="pdk" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
   <project path="external/libhevc" name="android_external_libhevc" groups="pdk" />
-  <project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" remote="aosp" />
+  <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" groups="pdk" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" />
   <project path="external/libmicrohttpd" name="platform/external/libmicrohttpd" groups="pdk" remote="aosp" />
   <project path="external/libmpeg2" name="android_external_libmpeg2" groups="pdk" />
