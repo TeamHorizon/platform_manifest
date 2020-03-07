@@ -276,7 +276,7 @@
   <project path="external/piex" name="platform/external/piex" groups="pdk" remote="aosp" />
   <project path="external/pigz" name="android_external_pigz" />
   <project path="external/powertop" name="android_external_powertop" />
-  <project path="external/ppp" name="platform/external/ppp" groups="pdk" remote="aosp" />
+  <project path="external/ppp" name="android_external_ppp" groups="pdk" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk" remote="aosp" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" remote="aosp" />
   <project path="external/protobuf-c" name="android_external_protobuf-c" />
