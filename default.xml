@@ -187,7 +187,7 @@
   <project path="external/junit" name="platform/external/junit" groups="pdk" remote="aosp" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk" remote="aosp" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk" remote="aosp" />
-  <project path="external/libavc" name="android_external_libavc" groups="pdk" />
+  <project path="external/libavc" name="android_external_libavc" groups="pdk" remote="th" revision="n" />
   <project path="external/libbrillo" name="platform/external/libbrillo" groups="pdk" remote="aosp" />
   <project path="external/libcap" name="platform/external/libcap" groups="pdk" remote="aosp" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk" remote="aosp" />
@@ -199,7 +199,7 @@
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
   <project path="external/libedit" name="platform/external/libedit" groups="pdk" remote="aosp" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" remote="aosp" />
-  <project path="external/libexif" name="android_external_libexif" groups="pdk" />
+  <project path="external/libexif" name="android_external_libexif" groups="pdk" revision="refs/changes/61/323461/1" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
   <project path="external/libhevc" name="android_external_libhevc" groups="pdk" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" groups="pdk" />
@@ -209,7 +209,7 @@
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk" remote="aosp" />
   <project path="external/libncurses" name="android_external_libncurses" />
   <project path="external/libnetfilter_conntrack" name="android_external_libnetfilter_conntrack" />
-  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" />
+  <project path="external/libnfc-nci" name="android_external_libnfc-nci" groups="pdk" remote="th" revision="n" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" groups="pdk" />
   <project path="external/libnfnetlink" name="android_external_libnfnetlink" />
   <project path="external/libnl" name="platform/external/libnl" groups="pdk" remote="aosp" />
@@ -298,7 +298,7 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk" remote="aosp" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" remote="aosp" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" remote="aosp" />
-  <project path="external/sonivox" name="android_external_sonivox" groups="pdk" />
+  <project path="external/sonivox" name="android_external_sonivox" groups="pdk" revision="refs/changes/38/317038/1" />
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" />
   <project path="external/speex" name="android_external_speex" groups="pdk" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" />
@@ -319,7 +319,7 @@
   <project path="external/tlsdate" name="platform/external/tlsdate" groups="pdk" remote="aosp" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" />
   <project path="external/tpm2" name="platform/external/tpm2" groups="pdk" remote="aosp" />
-  <project path="external/tremolo" name="android_external_tremolo" groups="pdk" />
+  <project path="external/tremolo" name="android_external_tremolo" groups="pdk" revision="refs/changes/86/319986/1" />
   <project path="external/uicommon" name="android_external_cyanogen_UICommon" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" remote="aosp" />
   <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" remote="aosp" />
@@ -344,7 +344,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
 
-  <project path="frameworks/av" name="android_frameworks_av" groups="pdk" />
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="th" revision="n" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="th" revision="n" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
@@ -354,7 +354,7 @@
   <project path="frameworks/minikin" name="android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="th" revision="n" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -468,13 +468,13 @@
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" />
-  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" groups="pdk-fs" />
+  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" groups="pdk-fs" remote="th" revision="n" />
   <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" />
   <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/ThemeInterfacer" name="interfacer" remote="ts" revision="n-rootless" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="th" revision="n" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="th" revision="n" />
   <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="th" revision="n" />
@@ -503,7 +503,7 @@
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/DataUsageProvider" name="android_packages_providers_DataUsageProvider" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="refs/changes/48/324248/2" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
@@ -558,7 +558,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" />
 
-  <project path="system/bt" name="android_system_bt" groups="pdk" />
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="th" revision="n" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" revision="refs/tags/android-8.1.0_r36" />
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" />
