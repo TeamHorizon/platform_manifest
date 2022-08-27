@@ -8,18 +8,18 @@
 
   <remote  name="laos"
            fetch="https://github.com/LineageOS" />
-		   
+
   <remote  name="gh"
            fetch="https://github.com"
            review="review.lineageos.org" />
-	
+
   <remote  name="github"
            fetch="https://github.com" />
 
   <remote  name="ts"
            fetch="https://github.com/substratum"
            review="review.projektsubstratum.com" />
-		   
+
   <remote  name="th"
            fetch="https://github.com/TeamHorizon" />
 
@@ -31,7 +31,7 @@
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="android_art" groups="pdk" />
-  <project path="bionic" name="android_bionic" groups="pdk" revision="refs/changes/18/330718/1" />
+  <project path="bionic" name="android_bionic" groups="pdk" revision="3864a7f431b42304afc24fd8549c8990fdbc150f" upstream="refs/changes/18/330718/1" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -161,7 +161,7 @@
   <project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk" remote="aosp" />
   <project path="external/ImageMagick" name="android_external_ImageMagick" groups="pdk" />
   <project path="external/ims" name="platform/external/ims" groups="pdk" remote="aosp" />
-  <project path="external/icu" name="android_external_icu" groups="pdk" revision="refs/changes/21/330721/1" />
+  <project path="external/icu" name="android_external_icu" groups="pdk" revision="b69d7765f7632c5ccdff3b8d8972cc93cbebbffc" upstream="refs/changes/21/330721/1" />
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk" remote="aosp" />
   <project path="external/ipsec-tools" name="android_external_ipsec-tools" groups="pdk" />
   <project path="external/iptables" name="android_external_iptables" groups="pdk" />
@@ -199,7 +199,7 @@
   <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
   <project path="external/libedit" name="platform/external/libedit" groups="pdk" remote="aosp" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" remote="aosp" />
-  <project path="external/libexif" name="android_external_libexif" groups="pdk" revision="refs/changes/61/323461/1" />
+  <project path="external/libexif" name="android_external_libexif" groups="pdk" revision="eb20a275fed14cecde153ddcf8926cb6a53a5956" upstream="refs/changes/61/323461/1" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
   <project path="external/libhevc" name="android_external_libhevc" groups="pdk" />
   <project path="external/libjpeg-turbo" name="android_external_libjpeg-turbo" groups="pdk" />
@@ -298,7 +298,7 @@
   <project path="external/smali" name="platform/external/smali" groups="pdk" remote="aosp" />
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" remote="aosp" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" remote="aosp" />
-  <project path="external/sonivox" name="android_external_sonivox" groups="pdk" revision="refs/changes/38/317038/1" />
+  <project path="external/sonivox" name="android_external_sonivox" groups="pdk" revision="fa44bf305a851e46cf5dc2beb183cad53aff7fc4" upstream="refs/changes/38/317038/1" />
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" />
   <project path="external/speex" name="android_external_speex" groups="pdk" />
   <project path="external/sqlite" name="android_external_sqlite" groups="pdk" />
@@ -319,7 +319,7 @@
   <project path="external/tlsdate" name="platform/external/tlsdate" groups="pdk" remote="aosp" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" />
   <project path="external/tpm2" name="platform/external/tpm2" groups="pdk" remote="aosp" />
-  <project path="external/tremolo" name="android_external_tremolo" groups="pdk" revision="refs/changes/86/319986/1" />
+  <project path="external/tremolo" name="android_external_tremolo" groups="pdk" revision="afd0d9152934910b8a16f3446845652faa4b16ed" upstream="refs/changes/86/319986/1" />
   <project path="external/uicommon" name="android_external_cyanogen_UICommon" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" remote="aosp" />
   <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" remote="aosp" />
@@ -450,7 +450,7 @@
   <project path="packages/apps/AppDrawer" name="android_packages_apps_AppDrawer" />
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" revision="9b161a5dfe2bd10af8db0dd00da3a3381a3e4063" upstream="refs/changes/52/332452/1" />
   <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="th" revision="n" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" />
@@ -500,10 +500,10 @@
   <project path="packages/providers/BookmarkProvider" name="android_packages_providers_BookmarkProvider" groups="pdk-fs" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/CallLogProvider" name="android_packages_providers_CallLogProvider" groups="pdk-fs" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" revision="6a2480e4a469ca47de011e72f08c22124181588b" upstream="refs/changes/76/334876/1" />
   <project path="packages/providers/DataUsageProvider" name="android_packages_providers_DataUsageProvider" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="refs/changes/48/324248/2" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" revision="74fcbeae55473ca4cf6e0f6fa2aa1a872d109921" upstream="refs/changes/48/324248/2" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" />
   <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
@@ -514,7 +514,7 @@
   <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" groups="pdk-fs" />
   <project path="packages/services/CMAudioService" name="android_packages_services_CMAudioService" />
   <project path="packages/services/Mms" name="android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" revision="de446cd1aa23cb8ca6e51ee2c11656affe4a8351" upstream="refs/changes/56/332456/1" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="th" revision="n" />
   <project path="packages/services/WeatherService" name="android_packages_services_WeatherService" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" groups="pdk-fs" />
