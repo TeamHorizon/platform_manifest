@@ -587,7 +587,7 @@
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" remote="aosp" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" remote="aosp" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" remote="aosp" />
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" clone-depth="1" remote="aosp" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" />
   <project path="tools/loganalysis" name="platform/tools/loganalysis" groups="notdefault,tradefed" remote="aosp" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" remote="aosp" />
